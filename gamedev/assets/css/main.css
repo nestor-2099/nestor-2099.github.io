@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,500");
 
 /*
 	Landed by HTML5 UP
@@ -102,7 +102,7 @@ input, select, textarea {
 		color: #FFF;
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
-		font-weight: 400;
+		font-weight: 300;
 		line-height: 1.75em;
 	}
 
@@ -113,7 +113,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
 		color: #e44c65;
-		font-weight: 400;
+		font-weight: 300;
 		text-decoration: none;
 	}
 
@@ -124,7 +124,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: 700;
+		font-weight: 500;
 	}
 
 	em, i {
@@ -137,7 +137,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 700;
+		font-weight: 500;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2229,7 +2229,7 @@ input, select, textarea {
 		color: #ffffff;
 		display: block;
 		font-size: 0.9em;
-		font-weight: 700;
+		font-weight: 500;
 		margin: 0 0 1em 0;
 	}
 
@@ -2328,7 +2328,7 @@ input, select, textarea {
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-weight: 400;
+			font-weight: 300;
 			padding-left: 2.55em;
 			padding-right: 0.75em;
 			position: relative;
@@ -2345,7 +2345,7 @@ input, select, textarea {
 				line-height: 1;
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
-				font-weight: 700;
+				font-weight: 500;
 			}
 
 			input[type="checkbox"] + label:before,
