@@ -309,27 +309,37 @@ const projectArrayEN = {
 
 
 const gamesArrayEN = {
-  "1": {
+"1": {
+    "url": "https://hagenhb.itch.io/chopped-tomato",
+    "name": "Chopped Tomato",
+    "date": "2024",
+    "platforms": "Web",
+    "type": "Game Jam",
+    "thumb": "./img/thumb-chopped-tomato-01.png",
+    "description": "<p>Time-based survival game for web browsers created for Mini Game Jam 34, developed in a team of 3 people. Main focus on team management, character logic, collisions and summoning enemies into the stage.</p>"
+  },
+
+  "2": {
     "url": "https://nestor-2099.itch.io/city-of-darkness-top-down-shooter",
     "name": "City of Darkness",
     "date": "2022",
     "platforms": "itch.io",
     "type": "PC, Web",
     "thumb": "./img/thumb-city-darkness.png",
-    "description": "<p>Top-Down Shooter video game for Windows and HTML5 developed in 48 hours, to participate in the Wowie Jam 4.0 - 'Collaborate with AI'. Developed with Godot Engine.</p>"
+    "description": "<p>Top-Down Shooter video game for Windows and HTML5 developed in 48 hours, to participate in the Wowie Jam 4.0 - 'Collaborate with AI'. Developed with Godot Engine. Main focus: creation of self-guided turrets that can receive continuous upgrades.</p>"
   },
 
-  "2": {
+  "3": {
     "url": "https://nestor-2099.itch.io/beware-of-the-rude-dog",
     "name": "Beware of the Rude Dog",
     "date": "2021",
     "platforms": "PC, Web",
     "type": "Game Jam",
     "thumb": "./img/thumb-beware-dog.jpg",
-    "description": "<p>Escape/Survival video game for Windows and HTML5 developed in 48 hours, to participate in the Wowie Jam 3.0 - 'Failure is progress'.</p>"
+    "description": "<p>Escape/Survival video game for Windows and HTML5 developed in 48 hours, to participate in the Wowie Jam 3.0 - 'Failure is progress'. Real-time object regeneration.</p>"
   },
 
-  "3": {
+  "4": {
     "url": "https://nestor-2099.itch.io/dungeon-mayhem",
     "name": "Dungeon Mayhem",
     "date": "2020",
@@ -339,7 +349,7 @@ const gamesArrayEN = {
     "description": "<p>2D Tower Defense video game developed in the Godot engine for PC. Gift for the game developer Alexandress, as part of the Secret Santa Jam 2020.</p>"
   },
   
-  "4": {
+  "5": {
     "url": "https://steam.pm/app/1411770",
     "name": "Redd\'s Runaway",
     "date": "2020",
@@ -350,7 +360,7 @@ const gamesArrayEN = {
   },
 
   
-  "17": {
+  "6": {
     "url": "https://nestor-2099.itch.io/gravity-spark",
     "name": "Gravity Spark",
     "date": "2020",
@@ -360,8 +370,8 @@ const gamesArrayEN = {
     "description": "<p>Multi-directional Shooter video game for Windows and Mac developed in 48 hours, to participate in the GMTK Game Jam 2020 - 'Out Of Control'. Software used: Godot, Aseprite, GIMP, Audacity.</p>"
   },
 
-  "24": {
-    "url": "https://grupobimbo.com/es",
+  "7": {
+    "url": "",
     "name": "Loa",
     "date": "2015",
     "platforms": "Android",
@@ -370,7 +380,7 @@ const gamesArrayEN = {
     "description": "<p>Android game, developed using the Unity game engine. Published by Duck Media Digital/GB Mobile.</p>"
   },
 
-  "25": {
+  "8": {
     "url": "https://appadvice.com/app/kokus/1085303357",
     "name": "Kokus",
     "date": "2015",
@@ -380,7 +390,7 @@ const gamesArrayEN = {
     "description": "<p>Video game for iOS, developed using the Unity game engine. Published by Duck Media Digital/GB Mobile. Using the device's accelerometer, it included 3 levels that ended in a screamer to surprise the player.</p>"
   },
 
-  "30": {
+  "9": {
     "url": "https://youtu.be/mTRzgQYvGeU",
     "name": "Abadon",
     "date": "2012",
@@ -402,22 +412,22 @@ const mugenArrayEN = {
     "update": "2022-02-22",
   },
   "2": {
-    "url": "https://mugenguild.com/forum/topics/chris-redfield-public-version-release-154705.0.html",
-    "name": "Chris Redfield",
-    "origin": "Resident Evil, Marvel Vs. Capcom 3",
-    "description": "<p>Inspired by Marvel Vs. Capcom 3</p>",
-    "thumb": "./img/chris-01.png",
-    "release": "2022-02-20",
-    "update": "2022-02-22",
-  },
-  "3": {
     "url": "https://mugenguild.com/forum/topics/fiona-versus-series-style-177008.0.html",
     "name": "Fiona Belli",
     "origin": "Haunting Ground",
     "description": "<p>Versus series fighting system</p>",
     "thumb": "./img/fiona-01.png",
-    "release": "2016",
-    "update": "2016",
+    "release": "2016-10-31",
+    "update": "2016-10-31",
+  },
+  "3": {
+    "url": "https://mugenguild.com/forum/topics/chris-redfield-public-version-release-154705.0.html",
+    "name": "Chris Redfield",
+    "origin": "Resident Evil, Marvel Vs. Capcom 3",
+    "description": "<p>Inspired by Marvel Vs. Capcom 3</p>",
+    "thumb": "./img/chris-01.png",
+    "release": "2013-10-31",
+    "update": "2013-10-31",
   },
   "4": {
     "url": "https://infinitymugenteam.com/nestor/chars/legacy/ViewtifulJoe_CFAS.zip",
@@ -425,8 +435,8 @@ const mugenArrayEN = {
     "origin": "Viewtiful Joe, Tatsunoko Vs. Capcom",
     "description": "<p>Versus series fighting system</p>",
     "thumb": "./img/vjoe-01.png",
-    "release": "2016",
-    "update": "2016",
+    "release": "2012",
+    "update": "2012",
   },
   "5": {
     "url": "https://infinitymugenteam.com/nestor/chars/legacy/Leo_CFAS.zip",
@@ -434,8 +444,8 @@ const mugenArrayEN = {
     "origin": "Red Earth, Capcom Fighting Evolution",
     "description": "<p>Versus series fighting system</p>",
     "thumb": "./img/leo-01.png",
-    "release": "2016",
-    "update": "2016",
+    "release": "2012",
+    "update": "2012",
   },
   "6": {
     "url": "https://infinitymugenteam.com/nestor/chars/legacy/Ryu_CFAS.zip",
@@ -443,8 +453,8 @@ const mugenArrayEN = {
     "origin": "Street Fighter, Marvel Vs. Capcom, Tatsunoko Vs. Capcom",
     "description": "<p>Versus series fighting system</p>",
     "thumb": "./img/ryu-01.png",
-    "release": "2016",
-    "update": "2016",
+    "release": "2012",
+    "update": "2012",
   },
   "7": {
     "url": "http://www.infinitymugenteam.com/Forum_345/index.php?topic=42358.0",
@@ -452,8 +462,8 @@ const mugenArrayEN = {
     "origin": "Marvel Vs. Capcom series",
     "description": "<p>Versus series fighting game demo</p>",
     "thumb": "./img/mvc-udb-01.png",
-    "release": "2016",
-    "update": "2016",
+    "release": "2014-01-02",
+    "update": "2014-01-02",
   },
   "8": {
     "url": "https://www.infinitymugenteam.com/Forum_345/index.php?topic=49147.msg563207",
@@ -461,8 +471,8 @@ const mugenArrayEN = {
     "origin": "Megaman, Marvel Vs. Capcom",
     "description": "<p>Versus series fighting game, contributed with Axl, FireMan, WoodMan (base release)</p>",
     "thumb": "./img/rmm-01.png",
-    "release": "2016",
-    "update": "2016",
+    "release": "2012",
+    "update": "2024",
   },
   "9": {
     "url": "https://infinitymugenteam.com/nestor/versus-lifebars_2016-07-10.zip",
@@ -470,8 +480,8 @@ const mugenArrayEN = {
     "origin": "Original Lifebar set",
     "description": "<p>Lifebar add-on</p>",
     "thumb": "./img/vs-lb-01.png",
-    "release": "2016",
-    "update": "2016",
+    "release": "2012",
+    "update": "2012",
   },
 
 }
