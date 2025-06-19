@@ -361,6 +361,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   console.log(projectArrayES[key].url)
     
                   clone.querySelector('.card-project-img').setAttribute('src', projectArrayES[key].thumb);
+                  clone.querySelector('.card-project-img').setAttribute('alt', projectArrayES[key].name);
                   clone.querySelector('.card-project-name h3').textContent = projectArrayES[key].name;
                   if(projectArrayES[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', projectArrayES[key].url);
@@ -388,6 +389,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', projectArrayEN[key].thumb);
+                  clone.querySelector('.card-project-img').setAttribute('alt', projectArrayEN[key].name);
                   clone.querySelector('.card-project-name h3').textContent = projectArrayEN[key].name;
                   if(projectArrayEN[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', projectArrayEN[key].url);
@@ -419,6 +421,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', gamesArrayES[key].thumb);
+                  clone.querySelector('.card-project-img').setAttribute('alt', gamesArrayES[key].name);
                   clone.querySelector('.card-project-name h3').textContent = gamesArrayES[key].name;
                   clone.querySelector('.card-project-type').textContent = gamesArrayES[key].type;
                   clone.querySelector('.card-project-description').innerHTML = gamesArrayES[key].description;
@@ -449,6 +452,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', gamesArrayEN[key].thumb);
+                  clone.querySelector('.card-project-img').setAttribute('alt', gamesArrayEN[key].name);
                   clone.querySelector('.card-project-name h3').textContent = gamesArrayEN[key].name;
                   clone.querySelector('.card-project-type').textContent = gamesArrayEN[key].type;
                   clone.querySelector('.card-project-description').innerHTML = gamesArrayEN[key].description;
@@ -488,6 +492,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', mugenArrayES[key].thumb);
+                  clone.querySelector('.card-project-img').setAttribute('alt', mugenArrayES[key].name);
                   clone.querySelector('.card-project-name h3').textContent = mugenArrayES[key].name;
                   clone.querySelector('.card-project-origin').textContent = mugenArrayES[key].origin;
                   clone.querySelector('.card-project-description').innerHTML = mugenArrayES[key].description;
@@ -523,6 +528,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', mugenArrayEN[key].thumb);
+                  clone.querySelector('.card-project-img').setAttribute('alt', mugenArrayEN[key].name);
                   clone.querySelector('.card-project-name h3').textContent = mugenArrayEN[key].name;
                   clone.querySelector('.card-project-origin').textContent = mugenArrayEN[key].origin;
                   clone.querySelector('.card-project-description').innerHTML = mugenArrayEN[key].description;
@@ -563,6 +569,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', wipsArrayES[key].thumb);
+                  clone.querySelector('.card-project-img').setAttribute('alt', wipsArrayES[key].name);
                   clone.querySelector('.card-project-name h3').textContent = wipsArrayES[key].name;
                   clone.querySelector('.card-project-origin').textContent = wipsArrayES[key].origin;
                   clone.querySelector('.card-project-description').innerHTML = wipsArrayES[key].description;
@@ -591,6 +598,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', wipsArrayEN[key].thumb);
+                  clone.querySelector('.card-project-img').setAttribute('alt', wipsArrayEN[key].name);
                   clone.querySelector('.card-project-name h3').textContent = wipsArrayEN[key].name;
                   clone.querySelector('.card-project-origin').textContent = wipsArrayEN[key].origin;
                   clone.querySelector('.card-project-description').innerHTML = wipsArrayEN[key].description;
@@ -640,6 +648,7 @@ document.addEventListener("DOMContentLoaded", () => {
               
               if(currentLang == "ES") {
                 document.querySelector('.modal-project-img').setAttribute('src', projectArrayES[currentProject].img);
+                document.querySelector('.modal-project-img').setAttribute('alt', projectArrayES[currentProject].name);
                 document.querySelector('.modal-project-name').textContent = projectArrayES[currentProject].name;
                 document.querySelector('.modal-project-description').innerHTML = projectArrayES[currentProject].description;
                 if(projectArrayES[currentProject].url != "") {
@@ -649,6 +658,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
               } else if(currentLang == "EN") {
                 document.querySelector('.modal-project-img').setAttribute('src', projectArrayEN[currentProject].img);
+                document.querySelector('.modal-project-img').setAttribute('alt', projectArrayEN[currentProject].name);
                 document.querySelector('.modal-project-name').textContent = projectArrayEN[currentProject].name;
                 document.querySelector('.modal-project-description').innerHTML = projectArrayEN[currentProject].description;
                 if(projectArrayEN[currentProject].url != "") {
@@ -675,6 +685,7 @@ document.addEventListener("DOMContentLoaded", () => {
             currentModal.classList.add('hidden');
 
             document.querySelector('.modal-project-img').setAttribute('src', '');
+            document.querySelector('.modal-project-img').setAttribute('alt', '');
           });
 
         });
