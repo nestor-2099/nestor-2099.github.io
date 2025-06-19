@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
           elem.addEventListener('click', (event) => {
             event.preventDefault();
             let hash = event.currentTarget.getAttribute('href').replace('#', '');
-            console.log(hash);
+            // console.log(hash);
             
             const id = hash;
             const yOffset = -30; 
@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
               
               langElem.forEach(function(langCoincidence) {
                 langCoincidence.innerHTML = websiteES[key][key2];
-                console.log(websiteES[key][key2])
+                // console.log(websiteES[key][key2])
               });
             }
           }
@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", () => {
               langElem = document.querySelectorAll('.'+key+'-'+key2);
               langElem.forEach(function(langCoincidence) {
                 langCoincidence.innerHTML = websiteEN[key][key2];
-                console.log(websiteEN[key][key2])
+                // console.log(websiteEN[key][key2])
               });
             }
           }
@@ -358,7 +358,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
                   clone.setAttribute('data-project', key);
 
-                  console.log(projectArrayES[key].url)
+                  // console.log(projectArrayES[key].url)
     
                   clone.querySelector('.card-project-img').setAttribute('src', projectArrayES[key].thumb);
                   clone.querySelector('.card-project-img').setAttribute('alt', projectArrayES[key].name);
@@ -717,7 +717,7 @@ document.addEventListener("DOMContentLoaded", () => {
             event.preventDefault();
             className = "."+event.currentTarget.getAttribute('data-class')+".hidden";
 
-            console.log(className)
+            // console.log(className)
 
             let elemsLeft = document.querySelectorAll(className).length;
 
@@ -727,7 +727,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (currentItemsStep < totalItemsStep) {
                   
                   if(el.classList.contains('card-general-elem')) {
-                    console.log(index)
+                    // console.log(index)
                     if(el.classList.contains('hidden')) {
                       el.classList.remove('hidden');
                     }
