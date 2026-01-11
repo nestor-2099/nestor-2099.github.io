@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
           elem.addEventListener('click', (event) => {
             event.preventDefault();
             let hash = event.currentTarget.getAttribute('href').replace('#', '');
-            // console.log(hash);
+            console.log(hash);
             
             const id = hash;
             const yOffset = -30; 
@@ -250,6 +250,7 @@ document.addEventListener("DOMContentLoaded", () => {
         langBtn.querySelector('.lang-en').classList.add('active');
         langBtn.querySelector('.lang-es').classList.remove('active');
       }
+      scrollController();
     }
 
     /**
@@ -284,7 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let cardElem,
             currentCard = 1;
-        
+        console.log(cardType)
         switch(cardType) {
           case 'experience':
             cardElem = cardContainer.querySelector(".card-experience-elem");
@@ -361,11 +362,9 @@ document.addEventListener("DOMContentLoaded", () => {
                   // console.log(projectArrayES[key].url)
     
                   clone.querySelector('.card-project-img').setAttribute('src', projectArrayES[key].thumb);
-                  clone.querySelector('.card-project-img').setAttribute('alt', projectArrayES[key].name);
                   clone.querySelector('.card-project-name h3').textContent = projectArrayES[key].name;
                   if(projectArrayES[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', projectArrayES[key].url);
-                    clone.querySelector('.card-project-link').setAttribute('aria-label', projectArrayES[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
                   }
@@ -390,11 +389,9 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', projectArrayEN[key].thumb);
-                  clone.querySelector('.card-project-img').setAttribute('alt', projectArrayEN[key].name);
                   clone.querySelector('.card-project-name h3').textContent = projectArrayEN[key].name;
                   if(projectArrayEN[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', projectArrayEN[key].url);
-                    clone.querySelector('.card-project-link').setAttribute('aria-label', projectArrayEN[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
                   }
@@ -423,7 +420,6 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', gamesArrayES[key].thumb);
-                  clone.querySelector('.card-project-img').setAttribute('alt', gamesArrayES[key].name);
                   clone.querySelector('.card-project-name h3').textContent = gamesArrayES[key].name;
                   clone.querySelector('.card-project-type').textContent = gamesArrayES[key].type;
                   clone.querySelector('.card-project-description').innerHTML = gamesArrayES[key].description;
@@ -431,7 +427,6 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.querySelector('.card-project-date').textContent = gamesArrayES[key].date;
                   if(gamesArrayES[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', gamesArrayES[key].url);
-                    clone.querySelector('.card-project-link').setAttribute('aria-label', gamesArrayES[key].name);
                   }
                   if(gamesArrayES[key].url != "") {
                     clone.querySelector('.card-project-name').setAttribute('href', gamesArrayES[key].url);
@@ -455,7 +450,6 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', gamesArrayEN[key].thumb);
-                  clone.querySelector('.card-project-img').setAttribute('alt', gamesArrayEN[key].name);
                   clone.querySelector('.card-project-name h3').textContent = gamesArrayEN[key].name;
                   clone.querySelector('.card-project-type').textContent = gamesArrayEN[key].type;
                   clone.querySelector('.card-project-description').innerHTML = gamesArrayEN[key].description;
@@ -463,7 +457,6 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.querySelector('.card-project-date').textContent = gamesArrayEN[key].date;
                   if(gamesArrayEN[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', gamesArrayEN[key].url);
-                    clone.querySelector('.card-project-link').setAttribute('aria-label', gamesArrayEN[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
                   }
@@ -496,7 +489,6 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', mugenArrayES[key].thumb);
-                  clone.querySelector('.card-project-img').setAttribute('alt', mugenArrayES[key].name);
                   clone.querySelector('.card-project-name h3').textContent = mugenArrayES[key].name;
                   clone.querySelector('.card-project-origin').textContent = mugenArrayES[key].origin;
                   clone.querySelector('.card-project-description').innerHTML = mugenArrayES[key].description;
@@ -505,7 +497,6 @@ document.addEventListener("DOMContentLoaded", () => {
                   
                   if(mugenArrayES[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', mugenArrayES[key].url);
-                    clone.querySelector('.card-project-link').setAttribute('aria-label', mugenArrayES[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
                   }
@@ -533,7 +524,6 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', mugenArrayEN[key].thumb);
-                  clone.querySelector('.card-project-img').setAttribute('alt', mugenArrayEN[key].name);
                   clone.querySelector('.card-project-name h3').textContent = mugenArrayEN[key].name;
                   clone.querySelector('.card-project-origin').textContent = mugenArrayEN[key].origin;
                   clone.querySelector('.card-project-description').innerHTML = mugenArrayEN[key].description;
@@ -542,7 +532,6 @@ document.addEventListener("DOMContentLoaded", () => {
                   
                   if(mugenArrayEN[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', mugenArrayEN[key].url);
-                    clone.querySelector('.card-project-link').setAttribute('aria-label', mugenArrayEN[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
                   }
@@ -575,14 +564,12 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', wipsArrayES[key].thumb);
-                  clone.querySelector('.card-project-img').setAttribute('alt', wipsArrayES[key].name);
                   clone.querySelector('.card-project-name h3').textContent = wipsArrayES[key].name;
                   clone.querySelector('.card-project-origin').textContent = wipsArrayES[key].origin;
                   clone.querySelector('.card-project-description').innerHTML = wipsArrayES[key].description;
                   
                   if(wipsArrayES[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', wipsArrayES[key].url);
-                    clone.querySelector('.card-project-link').setAttribute('aria-label', wipsArrayES[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
                   }
@@ -605,14 +592,12 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.setAttribute('data-project', key);
     
                   clone.querySelector('.card-project-img').setAttribute('src', wipsArrayEN[key].thumb);
-                  clone.querySelector('.card-project-img').setAttribute('alt', wipsArrayEN[key].name);
                   clone.querySelector('.card-project-name h3').textContent = wipsArrayEN[key].name;
                   clone.querySelector('.card-project-origin').textContent = wipsArrayEN[key].origin;
                   clone.querySelector('.card-project-description').innerHTML = wipsArrayEN[key].description;
                   
                   if(wipsArrayEN[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', wipsArrayEN[key].url);
-                    clone.querySelector('.card-project-link').setAttribute('aria-label', wipsArrayEN[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
                   }
@@ -624,6 +609,64 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             break;
           
+          case 'events':
+            cardElem = cardContainer.querySelector(".card-event-elem");
+            if(currentLang == "ES") {
+              if(eventsArrayES) {
+                for (let key in eventsArrayES) {
+                  let clone = cardElem.cloneNode(true)
+                  clone.classList.add('card-general-elem');
+                  clone.classList.remove('hidden');
+
+                  if(currentCard > currentCardLimit) {
+                    clone.classList.add('hidden');
+                  }
+    
+                  clone.setAttribute('data-event', key);
+    
+                  clone.querySelector('.card-event-img').setAttribute('src', eventsArrayES[key].thumb);
+                  clone.querySelector('.card-event-name h3').textContent = eventsArrayES[key].name;
+                  if(eventsArrayES[key].url != "") {
+                    clone.querySelector('.card-event-link').setAttribute('href', eventsArrayES[key].url);
+                  } else {
+                    clone.querySelector('.card-event-link').classList.add('hidden');
+                  }
+                  clone.querySelector('.card-event-type').textContent = eventsArrayES[key].type;
+                  clone.querySelector('.card-event-date').textContent = eventsArrayES[key].date;
+    
+                  cardContainer.appendChild(clone);
+                  currentCard++;
+                }
+              }
+            } else if(currentLang == "EN") {
+              if(eventsArrayEN) {
+                for (let key in eventsArrayEN) {
+                  let clone = cardElem.cloneNode(true)
+                  clone.classList.add('card-general-elem');
+                  clone.classList.remove('hidden');
+    
+                  if(currentCard > currentCardLimit) {
+                    clone.classList.add('hidden');
+                  }
+
+                  clone.setAttribute('data-event', key);
+    
+                  clone.querySelector('.card-event-img').setAttribute('src', eventsArrayEN[key].thumb);
+                  clone.querySelector('.card-event-name h3').textContent = eventsArrayEN[key].name;
+                  if(eventsArrayEN[key].url != "") {
+                    clone.querySelector('.card-event-link').setAttribute('href', eventsArrayEN[key].url);
+                  } else {
+                    clone.querySelector('.card-event-link').classList.add('hidden');
+                  }
+                  clone.querySelector('.card-event-type').textContent = eventsArrayEN[key].type;
+                  clone.querySelector('.card-event-date').textContent = eventsArrayEN[key].date;
+    
+                  cardContainer.appendChild(clone);
+                  currentCard++;
+                }
+              }
+            }
+            break;
         }
 
         
@@ -656,7 +699,6 @@ document.addEventListener("DOMContentLoaded", () => {
               
               if(currentLang == "ES") {
                 document.querySelector('.modal-project-img').setAttribute('src', projectArrayES[currentProject].img);
-                document.querySelector('.modal-project-img').setAttribute('alt', projectArrayES[currentProject].name);
                 document.querySelector('.modal-project-name').textContent = projectArrayES[currentProject].name;
                 document.querySelector('.modal-project-description').innerHTML = projectArrayES[currentProject].description;
                 if(projectArrayES[currentProject].url != "") {
@@ -666,11 +708,31 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
               } else if(currentLang == "EN") {
                 document.querySelector('.modal-project-img').setAttribute('src', projectArrayEN[currentProject].img);
-                document.querySelector('.modal-project-img').setAttribute('alt', projectArrayEN[currentProject].name);
                 document.querySelector('.modal-project-name').textContent = projectArrayEN[currentProject].name;
                 document.querySelector('.modal-project-description').innerHTML = projectArrayEN[currentProject].description;
                 if(projectArrayEN[currentProject].url != "") {
                   document.querySelector('.modal-project-link').setAttribute('href', projectArrayEN[currentProject].url);
+                } else {
+                  document.querySelector('.modal-project-link').classList.add('hidden');
+                }
+              }
+            } else if(elem.classList.contains('modal-event')) {
+              let currentEvent = parents(elem, '.card-modal-elem')[0].getAttribute('data-event');
+              if(currentLang == "ES") {
+                document.querySelector('.modal-project-img').setAttribute('src', eventsArrayES[currentEvent].img);
+                document.querySelector('.modal-project-name').textContent = eventsArrayES[currentEvent].name;
+                document.querySelector('.modal-project-description').innerHTML = eventsArrayES[currentEvent].description;
+                if(eventsArrayES[currentEvent].url != "") {
+                  document.querySelector('.modal-project-link').setAttribute('href', eventsArrayES[currentEvent].url);
+                } else {
+                  document.querySelector('.modal-project-link').classList.add('hidden');
+                }
+              } else if(currentLang == "EN") {
+                document.querySelector('.modal-project-img').setAttribute('src', eventsArrayEN[currentEvent].img);
+                document.querySelector('.modal-project-name').textContent = eventsArrayEN[currentEvent].name;
+                document.querySelector('.modal-project-description').innerHTML = eventsArrayEN[currentEvent].description;
+                if(eventsArrayEN[currentEvent].url != "") {
+                  document.querySelector('.modal-project-link').setAttribute('href', eventsArrayEN[currentEvent].url);
                 } else {
                   document.querySelector('.modal-project-link').classList.add('hidden');
                 }
@@ -693,7 +755,6 @@ document.addEventListener("DOMContentLoaded", () => {
             currentModal.classList.add('hidden');
 
             document.querySelector('.modal-project-img').setAttribute('src', '');
-            document.querySelector('.modal-project-img').setAttribute('alt', '');
           });
 
         });
@@ -767,7 +828,7 @@ document.addEventListener("DOMContentLoaded", () => {
      */
     const init = () => {
       mobileMenuController();
-      scrollController();
+      // scrollController();
 
       backgroundFollowController();
       projectCardsController();

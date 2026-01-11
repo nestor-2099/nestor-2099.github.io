@@ -9,9 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
-    <link rel="preload" href="./boxicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="./boxicons.min.css"></noscript>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="boxicons.min.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Portafolio | Néstor Guadalupe García Ortega</title>
   </head>
@@ -27,12 +26,12 @@
             <div class="flex flex-row justify-end">
               <div class="flex flex-row">
                 <div class="flex flex-col justify-center">
-                  <button aria-label="Lang" class="lang-select text-white block h-full text-[16px] leading-[0px]" id="lang-select"><span class="lang-es active">ES</span>
+                  <button class="lang-select text-white block h-full text-[16px] leading-[0px]" id="lang-select"><span class="lang-es active">ES</span>
                     <p class="mb-0 inline-block">|&nbsp;</p><span class="lang-en">EN</span>
                   </button>
                 </div>
                 <div class="flex flex-col justify-center ml-8 min-w-[30px]">
-                  <button aria-label="Menu" class="flex flex-col justify-center w-full menu-btn text-white pointer-events-auto open ease-in-out duration-300 hover:text-accent-color"><i class="bx bx-menu text-[30px]"></i></button>
+                  <button class="flex flex-col justify-center w-full menu-btn text-white pointer-events-auto open ease-in-out duration-300 hover:text-accent-color"><i class="bx bx-menu text-[30px]"></i></button>
                   <div></div>
                 </div>
               </div>
@@ -49,7 +48,7 @@
               <div class="flex flex-row justify-end">
                 <div class="flex flex-row">
                   <div class="flex flex-col justify-center">
-                    <button class="flex flex-col justify-center w-full menu-btn text-white pointer-events-auto close hidden ease-in-out duration-300 hover:text-accent-color close-menu"><i class="bx bx-x text-[30px]"></i></button>
+                    <button class="flex flex-col justify-center w-full menu-btn text-white pointer-events-auto close hidden ease-in-out duration-300 hover:text-accent-color close-menu"><i class="bx bx-x text-[60px]"></i></button>
                   </div>
                 </div>
               </div>
@@ -60,81 +59,71 @@
           <div class="h-full flex flex-col justify-center">
             <div class="menu-layer flex flex-row flex-wrap pointer-events-auto hidden justify-start lg:justify-center lg:pt-0 overflow-auto">
               <div class="px-4 w-full lg:w-1/4 mb-6">
-                <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#hero-section"><span class="uppercase menu-home">Home</span></a></div>
+                <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#hero-section"><span class="uppercase menu-home">Inicio</span></a></div>
               </div>
               <div class="px-4 w-full lg:w-1/4 mb-6">
-                <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#about-section"><span class="uppercase menu-about">About me</span></a></div>
+                <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#experience-section"><span class="uppercase menu-about">Acerca de mí</span></a></div>
               </div>
               <div class="px-4 w-full lg:w-1/4 mb-6">
-                <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#experience-section"><span class="uppercase menu-experience">Areas of expertise</span></a></div>
+                <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#portfolio-section"><span class="uppercase menu-portfolio">Portafolio web</span></a></div>
               </div>
               <div class="px-4 w-full lg:w-1/4 mb-6">
-                <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#portfolio-section"><span class="uppercase menu-portfolio">My Portfolio</span></a></div>
+                <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#events-section"><span class="uppercase menu-events">Eventos y participaciones</span></a></div>
               </div>
               <div class="px-4 w-full lg:w-1/4 mb-6">
-                <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#games-section"><span class="uppercase menu-games">Videogames</span></a></div>
+                <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#games-section"><span class="uppercase menu-games">Portafolio de videojuegos</span></a></div>
               </div>
               <div class="px-4 w-full lg:w-1/4 mb-6">
                 <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#mugen-section"><span class="uppercase menu-mugen">M.U.G.E.N.</span></a></div>
               </div>
               <div class="px-4 w-full lg:w-1/4 mb-6">
-                <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#wip-section"><span class="uppercase menu-wip">Work In Progress</span></a></div>
+                <div class="h-full lg:max-w-[200px] hover:lg:max-w-full lg:min-h-[100px] mx-auto text-white ease-in-out duration-300 shadow-md rounded-lg relative overflow-hidden bg-center"><a class="menu-card btn-scroll h-full w-full p-2 lg:p-4 m-0 font-bold text-[16px] leading-[24px] lg:text-[24px] lg:leading-[32px] text-center flex flex-col justify-center ease-in-out duration-300 border-2 border-solid border-white/70 hover:border-accent-color/70 rounded-lg bg-black/60 z-10" href="#wip-section"><span class="uppercase menu-wip">Trabajo En Progreso</span></a></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <section class="hero-section h-screen" id="hero-section">
+      <section class="hero-section md:h-screen mt-[60px] lg:mt-0" id="hero-section">
         <div class="container mx-auto h-full px-4 sm:px-8 xl:px-18">
-          <div class="flex flex-row flex-wrap h-full">
-            <div class="px-4 w-full flex flex-col justify-center">
-              <div class="text-center flex flex-col justify-center">
-                <h1 class="text-white hero-title">Hola, soy Néstor</h1>
-                <p class="h3 text-white hero-subtitle">Desarrollador Front-End Web | Desarrollador de Videojuegos</p>
+          <div class="flex flex-col-reverse md:flex-row flex-wrap md:h-full">
+            <div class="px-4 w-full md:w-1/3 mb-6 md:mb-0">
+              <div class="md:h-full flex flex-col justify-center">
+                <div class="relative overflow-hidden mx-auto rounded-full max-w-[260px] text-center"><img src="../img/foto-nestor.jpg" alt="" loading="lazy"></div>
+              </div>
+            </div>
+            <div class="px-4 w-full md:w-2/3 mb-6 md:mb-0">
+              <div class="flex flex-col justify-center md:h-full">
+                <p class="h1 text-white hero-header">Hola, soy Néstor García</p>
+                <h1 class="h3 text-white hero-title">Desarrollador especializado en front-end web y videojuegos de CDMX, enfocado en experiencias accesibles, atractivas y funcionales</h1>
+                <h2 class="subtitle text-white hero-subtitle"><a class="link white btn-scroll mb-4" href="#hero-section">Web Dev</a>&nbsp;|&nbsp;<a class="link white mb-4" href="https://store.steampowered.com/app/1411770/Redds_Runaway/" target="_blank">Redd's Runaway</a>&nbsp;|&nbsp;<a class="link white mb-4" href="https://bewolfstudio.com/" target="_blank">BeWolf Studio</a>&nbsp;|&nbsp;<a class="link white mb-4" href="https://poweritems.com.mx/" target="_blank">Power Items</a></h2>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="about-section" id="about-section">
-        <div class="container mx-auto px-4 sm:px-8 xl:px-18">
-          <div class="flex flex-row flex-wrap justify-center">
-            <div class="px-4 w-full md:w-1/3 lg:w-1/4 mb-6 md:mb-0">
-              <div class="h-full flex flex-col justify-center">
-                <div class="relative overflow-hidden mx-auto rounded-lg max-w-[300px] text-center"><img src="./img/foto-nestor.jpg" alt="Fotografía - Néstor Guadalupe García Ortega" loading="lazy" width="300" height="300"></div>
-              </div>
-            </div>
-            <div class="px-4 w-full md:w-2/3 lg:w-2/4 text-white">
-              <div class="h-full flex flex-col justify-center">
-                <div>
-                  <div class="title-elem text-center md:text-left">
-                    <h2 class="text-white about-title">Acerca de mí</h2>
-                    <div class="bg"></div>
-                  </div>
-                  <div class="about-paragraph">
-                    <p>Me enfoco en desarrollo web Front End, trabajando en plataformas de contenido, sitios de promoción, sitios informativos, CMS, landing pages, experiencias web interactivas y videojuegos.</p>
-                    <p>Busco colaborar en el desarrollo de experiencias cautivadoras que brinden valor a su público, considerando las limitaciones como un impulso para el área creativa y la resolución de problemas.</p>
-                    <p>Entre los proyectos personales que he realizado, se encuentran contenido para el motor M.U.G.E.N., la plataforma de entretenimiento y el canal de YouTube Power Items, y Redd's Runaway, un videojuego Run &amp; Gun procedural inspirado por las festividades de Halloween y día de muertos.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="experience-section text-white" id="experience-section">
+      <section class="experience-section text-white bg-[#2f485866]" id="experience-section">
         <div class="container mx-auto px-4 sm:px-8 xl:px-18">
           <div class="flex flex-row flex-wrap">
-            <div class="px-4 w-full text-center">
-              <div class="title-elem">
-                <h2 class="text-white experience-title">Áreas de experiencia</h2>
+            <div class="px-4 w-full">
+              <div class="title-elem text-center">
+                <h2 class="text-white about-title">Mi experiencia</h2>
                 <div class="bg v1"></div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-row flex-wrap justify-center">
+            <div class="px-4 w-full md:w-7/12 mb-8">
+              <div class="about-paragraph">
+                <p>¡Gracias por tu visita! A lo largo de mi carrera he trabajado en plataformas de contenido, sitios de promoción, sitios informativos, CMS, landing pages, experiencias web interactivas y videojuegos.</p>
+                <p>Busco colaborar en el desarrollo de experiencias cautivantes que brinden valor a su público, considerando las limitaciones como un impulso para el área creativa y la resolución de problemas.</p>
+                <p>Es así que he participado en proyectos para Alka-Seltzer, Caminos de la Libertad, Bimbo, Liga MX, TecSalud, Universidad Anáhuac, Talana y Tecmilenio, entre otros.</p>
+                <p>Entre mis proyectos personales he programado contenido para el motor M.U.G.E.N. inspirado por Capcom, la plataforma de entretenimiento y el canal de YouTube Power Items, y Redd's Runaway, un videojuego Run &amp; Gun procedural inspirado por las festividades de Halloween y día de muertos para Windows, disponible en Steam.</p>
               </div>
             </div>
           </div>
           <div class="flex flex-row flex-wrap justify-center card-project-container" data-type="experience">
             <div class="px-4 w-full md:w-1/2 lg:w-1/3 mb-6 card-experience-elem hidden" data-project="data-project">
-              <div class="h-full bg-white text-main-color px-4 py-6 md:p-4 md:py-6 xl:p-8 shadow-md rounded-lg text-center">
+              <div class="h-full bg-white text-main-color px-4 py-6 md:p-4 md:py-6 xl:p-8 shadow-lg border border-gray-500 rounded-lg text-center">
                 <div class="h-[100px]"><i class="relative bx mb-5 text-[60px] ease-in-out duration-300 leading-[80px]"></i></div>
                 <h3 class="card-experience-name"></h3>
                 <ul class="card-list text-left"></ul>
@@ -148,20 +137,20 @@
           </div>
         </div>
       </section>
-      <section class="portfolio-section" id="portfolio-section">
+      <section class="portfolio-section bg-[#03001C66]" id="portfolio-section">
         <div class="container mx-auto px-4 sm:px-8 xl:px-18">
           <div class="flex flex-row-flex-wrap">
             <div class="px-4 w-full text-center">
               <div class="title-elem">
-                <h2 class="text-white portfolio-title">Mi portafolio</h2>
+                <h2 class="text-white portfolio-title">Portafolio web</h2>
                 <div class="bg v2"></div>
               </div>
             </div>
           </div>
           <div class="flex flex-row flex-wrap justify-center card-project-container" data-type="portfolio">
             <div class="px-4 w-full md:w-1/2 lg:w-1/3 mb-6 card-modal-elem card-portfolio-elem hidden" data-project="data-project">
-              <div class="h-full bg-white text-main-color shadow-md rounded-lg overflow-hidden relative">
-                <div class="img-link-container h-[150px] lg:h-[200px] max-w-[500px]"><img class="btn-modal card-project-img modal-project" src="" alt="" data-modal="#modal-projects" loading="lazy" width="438" height="438"></div>
+              <div class="h-full bg-white text-main-color shadow-lg rounded-lg border border-gray-500 overflow-hidden relative">
+                <div class="img-link-container h-[150px] lg:h-[200px] max-w-[500px]"><img class="btn-modal card-project-img modal-project" src="" alt="" data-modal="#modal-projects" loading="lazy"></div>
                 <div class="p-4 text-center"><a class="link btn-modal modal-project card-project-name mb-4" href="#" data-modal="#modal-projects"> 
                     <h3 class="mb-0"></h3></a>
                   <div class="flex flex-row flex-wrap justify-center">
@@ -182,20 +171,54 @@
           </div>
         </div>
       </section>
-      <section class="games-section" id="games-section">
+      <section class="events-section bg-[#5f568c66]" id="events-section">
         <div class="container mx-auto px-4 sm:px-8 xl:px-18">
           <div class="flex flex-row-flex-wrap">
             <div class="px-4 w-full text-center">
               <div class="title-elem">
-                <h2 class="text-white games-title">Games</h2>
+                <h2 class="text-white events-title">Eventos y participaciones</h2>
+                <div class="bg v4"></div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-row flex-wrap justify-center card-project-container" data-type="events">
+            <div class="px-4 w-full md:w-1/2 lg:w-1/3 mb-6 card-modal-elem card-event-elem hidden" data-event="data-event">
+              <div class="h-full bg-white text-main-color shadow-lg rounded-lg border border-gray-500 overflow-hidden relative">
+                <div class="img-link-container h-[150px] lg:h-[200px] max-w-[500px]"><img class="btn-modal card-event-img modal-event" src="" alt="" data-modal="#modal-projects" loading="lazy"></div>
+                <div class="p-4 text-center"><a class="link btn-modal modal-event card-event-name mb-4" href="#" data-modal="#modal-projects"> 
+                    <h3 class="mb-0"></h3></a>
+                  <div class="flex flex-row flex-wrap justify-center">
+                    <div class="px-1">
+                      <p class="card-event-type mb-0"></p>
+                    </div>
+                    <div class="px-1"><a class="link card-event-link" href="#" target="_blank"><i class="bx bx-link text-accent-color text-[24px] leading-0"></i></a></div>
+                  </div>
+                  <p class="mt-2 card-event-date font-bold mb-0"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-row flex-wrap">
+            <div class="px-4 w-full text-center">
+              <button class="btn btn-main btn-show-more hidden" type="button" data-class="card-event-elem" data-show-elems="6">Cargar más				</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="games-section bg-[#301E6766]" id="games-section">
+        <div class="container mx-auto px-4 sm:px-8 xl:px-18">
+          <div class="flex flex-row-flex-wrap">
+            <div class="px-4 w-full text-center">
+              <div class="title-elem">
+                <h2 class="text-white games-title">Portafolio de videojuegos</h2>
                 <div class="bg v3"></div>
               </div>
             </div>
           </div>
           <div class="flex flex-row flex-wrap justify-center card-project-container" data-type="games">
             <div class="px-4 w-full md:w-1/2 lg:w-1/3 mb-6 card-games-elem hidden" data-project="data-project">
-              <div class="h-full bg-main-color text-white shadow-md rounded-lg overflow-hidden relative">
-                <div class="img-link-container h-[150px] lg:h-[200px] max-w-[500px]"><a class="card-project-link" href="#" target="_blank"><img class="card-project-img" src="" alt="" loading="lazy" width="438" height="438"></a></div>
+              <div class="h-full bg-white text-main-color shadow-lg rounded-lg border border-gray-500 overflow-hidden relative">
+                <div class="img-link-container h-[150px] lg:h-[200px] max-w-[500px]"><a class="card-project-link" href="#" target="_blank"><img class="card-project-img" src="" alt="" loading="lazy"></a></div>
                 <div class="p-4 text-center"><a class="link card-project-name mb-4" href="#" target="_blank">
                     <h3 class="mb-0"></h3></a>
                   <div class="card-project-description text-[14px] leading-[22px]"></div>
@@ -213,7 +236,7 @@
           </div>
         </div>
       </section>
-      <section class="mugen-section" id="mugen-section">
+      <section class="mugen-section bg-[#5B8FB966]" id="mugen-section">
         <div class="container mx-auto px-4 sm:px-8 xl:px-18">
           <div class="flex flex-row-flex-wrap">
             <div class="px-4 w-full text-center">
@@ -225,8 +248,8 @@
           </div>
           <div class="flex flex-row flex-wrap justify-center card-project-container" data-type="mugen">
             <div class="px-4 w-full md:w-1/2 lg:w-1/3 mb-6 card-mugen-elem hidden" data-project="data-project">
-              <div class="h-full bg-main-color text-white shadow-md rounded-lg overflow-hidden relative">
-                <div class="img-link-container h-[150px] lg:h-[200px] max-w-[500px]"><a class="card-project-link" href="#" target="_blank"><img class="card-project-img" src="" alt="" loading="lazy" width="438" height="438"></a></div>
+              <div class="h-full bg-white text-main-color shadow-lg rounded-lg border border-gray-500 overflow-hidden relative">
+                <div class="img-link-container h-[150px] lg:h-[200px] max-w-[500px]"><a class="card-project-link" href="#" target="_blank"><img class="card-project-img" src="" alt="" loading="lazy"></a></div>
                 <div class="p-4 text-center"><a class="link card-project-name mb-4" href="#" target="_blank">
                     <h3 class="mb-0"></h3></a>
                   <p class="mb-4"><span class="mugen-origin">Origen:&nbsp;</span><span class="card-project-origin font-bold"></span></p>
@@ -244,20 +267,20 @@
           </div>
         </div>
       </section>
-      <section class="wip-section" id="wip-section">
+      <section class="wip-section bg-[#B6EADA66]" id="wip-section">
         <div class="container mx-auto px-4 sm:px-8 xl:px-18">
           <div class="flex flex-row-flex-wrap">
             <div class="px-4 w-full text-center">
               <div class="title-elem">
-                <h2 class="text-white wip-title">Work in Progress</h2>
+                <h2 class="text-white wip-title">Trabajo En Progreso</h2>
                 <div class="bg v4"></div>
               </div>
             </div>
           </div>
           <div class="flex flex-row flex-wrap justify-center card-project-container" data-type="wip">
             <div class="px-4 w-full md:w-1/2 lg:w-1/3 mb-6 card-wip-elem hidden" data-project="data-project">
-              <div class="h-full bg-main-color text-white shadow-md rounded-lg overflow-hidden relative">
-                <div class="img-container h-[150px] lg:h-[200px] max-w-[500px]"><img class="card-project-img" src="" alt="" loading="lazy" width="438" height="438"></div>
+              <div class="h-full bg-white text-main-color shadow-lg rounded-lg border border-gray-500 overflow-hidden relative">
+                <div class="img-container h-[150px] lg:h-[200px] max-w-[500px]"><img class="card-project-img" src="" alt="" loading="lazy"></div>
                 <div class="p-4 text-center">
                   <div class="card-project-name mb-4">
                     <h3 class="mb-0"></h3>
@@ -270,7 +293,7 @@
           </div>
           <div class="flex flex-row flex-wrap">
             <div class="px-4 w-full text-center">
-              <button class="btn btn-main btn-show-more hidden" type="button" data-class="card-wip-elem" data-show-elems="6">Cargar más				</button>
+              <button class="btn btn-main btn-show-more hidden" type="button" data-class="card-wip-elem" data-show-elems="6">Cargar más</button>
             </div>
           </div>
         </div>
@@ -279,7 +302,7 @@
         <div class="container absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <div class="flex flex-col justify-center px-4">
             <div class="block w-full mx-auto max-w-[640px] relative text-right">
-              <button class="btn-modal-close text-white z-50 ml-auto" type="button">✖</button>
+              <button class="btn-modal-close text-white z-50 ml-auto text-[30px]" type="button">✖</button>
             </div>
             <div class="block w-full mx-auto max-w-[640px] bg-white max-h-[80vh] p-4 relative overflow-y-auto">
               <div class="modal-header flex flex-row w-full justify-between py-3">
@@ -290,7 +313,7 @@
               <div class="modal-content py-4 h-auto">
                 <div class="modal-project-description mb-6">Descripción</div>
                 <div class="mb-4"><a class="link modal-project-link" href="#" target="_blank"><i class="bx bx-link text-accent-color text-[24px] leading-0"></i></a></div>
-                <div><img class="modal-project-img max-w-[640px] w-full mx-auto" src="" alt="" loading="lazy" width="593" height="265"></div>
+                <div><img class="modal-project-img max-w-[640px] w-full mx-auto" src="" alt="" loading="lazy"></div>
               </div>
             </div>
           </div>
@@ -307,8 +330,8 @@
         </div>
       </div>
     </footer>
-    <script defer src="./lang-en.js"></script>
-    <script defer src="./lang-es.js"></script>
-    <script defer src="./main.js"></script>
+    <script src="./lang-en.js"></script>
+    <script src="./lang-es.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>

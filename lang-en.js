@@ -2,27 +2,25 @@ const websiteEN = {
   "menu": {
     "home": "Home",
     "about": "About me",
-    "experience": "Areas of expertise",
     "portfolio": "My portafolio",
     "games": "Videogames",
     "mugen": "M.U.G.E.N.",
     "wip": "Work In Progress",
+    "events": "Events",
   },
   "btn": {
     "show-more": "Load more"
   },
   "hero": {
-    "title": "Hey there, I'm Néstor",
-    "subtitle": "Front-End Web Developer <span>|</span><br> Videogame Developer"
+    "header": "Hey there, I'm Néstor García",
+    "title": "Web and video game front-end developer based in Mexico City, focused on accessible, engaging, and functional experiences"
   },
   "about": {
     "title": "About me",
-    "paragraph": "<p>I'm focused on Front-End web development, working on content platforms, promotional sites, informational sites, CMS', landing pages, interactive web experiences and videogames.</p>"+
-									"<p>I seek to collaborate in the development of captivating experiences that provide value to their audience, considering limitations as a drive for the creative side and problem solving.</p>"+
-									"<p>Among the personal projects I have done are content for the M.U.G.E.N. engine, the entertainment platform and YouTube channel Power Items, and Redd's Runaway, a procedural Run & Gun video game inspired by the Halloween and Day of the Dead festivities.</p>"
-  },
-  "experience": {
-    "title": "Areas of expertise"
+    "paragraph": "<p>Thanks for your visit! Throughout my career, I've worked on content platforms, promotional sites, informational sites, CMS, landing pages, interactive web experiences, and video games.</p>"+
+									"<p>I'm looking to collaborate on developing captivating experiences that provide value to their audience, considering limitations as a boost for creativity and problem-solving.</p>"+
+									"<p>I've participated in projects for Alka-Seltzer, Caminos de la Libertad, Bimbo, Liga MX, TecSalud, Universidad Anáhuac, Talana, and Tecmilenio, among others.</p>"+
+                  "<p>My personal projects include programming content for the M.U.G.E.N. engine inspired by Capcom, the entertainment platform and YouTube channel Power Items, and Redd's Runaway, a procedural run-and-gun game inspired by Halloween and Day of the Dead festivities for Windows, available on Steam.</p>"
   },
   "portfolio": {
     "title": "My portfolio"
@@ -41,6 +39,9 @@ const websiteEN = {
     "title": "Work in progress",
     "origin": ""
   },
+  "events": {
+    "title": "Events"
+  },
   "footer": {
     "text-1": "Site designed by Néstor García",
     "text-2": "Brands, logos and illustrations shown are property of their respective owners, used for illustrative purposes only"
@@ -49,42 +50,74 @@ const websiteEN = {
 
 const experienceArrayEN = {
   "1": {
-    "name": "Front-End",
+    "name": "Web Front-End",
     "icon": "bx-code-alt",
     "bullets": [
-      "Use of technologies and frameworks such as Gulp, Pug (HTML), Stylus, Less, Tailwind (CSS), jQuery and React (Javascript) for development.",
-      "Responsive website layout",
-      "Performance and loading speed validation.",
-      "Connection with API's.",
-      "Hubspot usage for dynamic websites and blogs."
+      "Technology and frameworks: HTML, CSS, JavaScript, NodeJS, Gulp, Pug, Stylus, Less, Tailwind, jQuery, React, HubSpot, BitBucket.",
+      "Responsive website design.",
+      "Performance and page load speed testing.",
+      "API connection.",
+      "Javascript usage for dynamic websites.",
+      "Website content localization implementation (ENG/ESP) using JavaScript files.",
+      "HubSpot use for dynamic websites and blogs."
     ],
   },
   "2": {
     "name": "Game Dev",
     "icon": "bx-joystick",
     "bullets": [
-      "Using Godot game engine.",
+      "Technology and frameworks: Godot, Steam, GodotSteam, Google Drive, Trello, Photoshop, Aseprite, DaVinci Resolve, Audacity, GitLab.",
       "Technical design of video games: Game Design, UX, UI, mechanics.",
       "Iterative and incremental project development (Scrum, sprints).",
-      "Online publishing through Steam, itch.io and Play Store platforms.",
-      "Vision focused on narrative, visual atmosphere and captivating gameplay."
+      "Online publishing via Steam, itch.io, and the Play Store.",
+      "Focus on narrative, visual atmosphere, and captivating gameplay."
     ],
   },
   "3": {
-    "name": "Back-End",
+    "name": "Web Back-End",
     "icon": "bx-code-curly",
     "bullets": [
-      "Websit development with PHP language.",
-      "Frameworks used include Codeigniter and Laravel (Model/View/Controller pattern).",
-      "Modular functions development.",
-      "Portal building with custom CMS.",
-      "Implementing localization for website content (ENG/ESP)."
+      "Technology and frameworks: PHP, CodeIgniter, Laravel, GitHub.",
+      "Model/View/Controller (MVC) pattern Use.",
+      "Functions modular development.",
+      "Portal building with custom CMS'.",
+      "Localization implementation for website content (ENG/ESP)."
     ],
   }
 }
 
 const projectArrayEN = {
   "1": {
+    "url": "https://boardwalkcustombuilders.com/",
+    "name": "Boardwalk Custom Builders",
+    "date": "2025",
+    "type": "Black & Orange",
+    "thumb": "./img/thumb-boardwalk.jpg",
+    "img": "./img/boardwalk.jpg",
+    "description": "<p>Development of a web portal using WordPress and Elementor for a variety of sections, with the objective of publicizing Boardwalk's services.</p>"
+  },
+
+  "2": {
+    "url": "https://malekservice.com/",
+    "name": "Malek Service",
+    "date": "2025",
+    "type": "Black & Orange",
+    "thumb": "./img/thumb-malek.jpg",
+    "img": "./img/malek.jpg",
+    "description": "<p>Website developed with WordPress, aimed at converting new customers for the business. Elementor was used for the project's custom elements.</p>"
+  },
+
+  "3": {
+    "url": "https://www.valorpyme.cl/",
+    "name": "Valor PyME",
+    "date": "2025",
+    "type": "Black & Orange",
+    "thumb": "./img/thumb-valor-pyme.jpg",
+    "img": "./img/valor-pyme.jpg",
+    "description": "<p>Ongoing development of modules for Valor PyME, generating new templates with continuous optimization for further reuse on new pages. Implementation of carousels and modules with incremental functionalities tailored to the needs of the client and their users.</p>"
+  },
+  
+  "4": {
     "url": "https://traxion.global/",
     "name": "Traxión",
     "date": "2024",
@@ -94,7 +127,7 @@ const projectArrayEN = {
     "description": "<p>Collaboration in the creation of a variety of Grupo Traxión business units, streamlined through the use of modules developed with Pug and Tailwind, integrated with Hubspot.</p>"
   },
 
-  "2": {
+  "5": {
     "url": "https://www.defontana.com/cl",
     "name": "Defontana",
     "date": "2023",
@@ -104,7 +137,7 @@ const projectArrayEN = {
     "description": "<p>Site developed with Gulp, Pug, Tailwind, prepared for integration with Hubspot, presenting a series of attractive parallax effects for the user.</p>"
   },
 
-  "3": {
+  "6": {
     "url": "https://universidad.tecmilenio.mx/preparatoria",
     "name": "Universidad Tecmilenio",
     "date": "2023",
@@ -114,7 +147,7 @@ const projectArrayEN = {
     "description": "<p>Development of modules in 6 business units for the Tecmilenio community, with sites prepared for Hubspot implementation and feeding.</p>"
   },
 
-  "4": {
+  "7": {
     "url": "https://hobmanuals.com/",
     "name": "Hob Manuals",
     "date": "2023",
@@ -124,7 +157,7 @@ const projectArrayEN = {
     "description": "<p>Site developed with Gulp, Pug, Tailwind, ready for integration with Hubspot.</p>"
   },
 
-  "5": {
+  "8": {
     "url": "https://www.black-n-orange.com/",
     "name": "Black & Orange",
     "date": "2023",
@@ -134,7 +167,7 @@ const projectArrayEN = {
     "description": "<p>Site developed using Tailwind, taking full advantage of the framework's capabilities for upcoming updates and development with the least amount of scripts possible, using Javascript. Animation implementation.</p>"
   },
 
-  "6": {
+  "9": {
     "url": "https://web.talana.com/",
     "name": "Talana",
     "date": "2023",
@@ -144,7 +177,7 @@ const projectArrayEN = {
     "description": "<p>Website developed alongside landing pages with reusable and customized modules. Salary calculator development with graphical feedback.</p>"
   },
 
-  "7": {
+  "10": {
     "url": "https://content.tecsalud.mx/cancer-de-mama",
     "name": "Landing TecSalud",
     "date": "2022",
@@ -154,7 +187,7 @@ const projectArrayEN = {
     "description": "<p>Landing Page developed with modular sections, which can be reused in the future. Implementation of Facebook and YouTube videos.</p>"
   },
 
-  "8": {
+  "11": {
     "url": "https://residencesrancholapuerta.com/",
     "name": "Rancho La Puerta",
     "date": "2022",
@@ -164,7 +197,7 @@ const projectArrayEN = {
     "description": "<p>Page developed with a variety of different elements to display information to customers (carousels, tabs, modals, forms). Modules hosted on the Hubspot platform.</p>"
   },
 
-  "9": {
+  "12": {
     "url": "https://www.kurabiotech.com/",
     "name": "Kura",
     "date": "2022",
@@ -174,7 +207,7 @@ const projectArrayEN = {
     "description": "<p>Website developed with modularized sections, which can be reused. Use of graphic elements through layers of color.</p>"
   },
 
-  "11": {
+  "13": {
     "url": "https://www.temis-apps.com/",
     "name": "Temis",
     "date": "2022",
@@ -184,7 +217,7 @@ const projectArrayEN = {
     "description": "<p>Website and blog development, focused on showing functionalities to potential users through dynamic visuals (images, videos).</p>"
   },
 
-  "12": {
+  "14": {
     "url": "https://poweritems.com.mx/",
     "name": "Power Items 3.0",
     "date": "2021",
@@ -194,7 +227,7 @@ const projectArrayEN = {
     "description": "<p>Final update of the platform, focused on creating a Single-Page App. Implementation done with Laravel (PHP, MVC framework) and React, along with an update of the PWA previously implemented on the platform.</p>"
   },
 
-  "16": {
+  "15": {
     "url": "https://bewolfstudio.com/",
     "name": "BeWolf Studio",
     "date": "2020",
@@ -204,7 +237,7 @@ const projectArrayEN = {
     "description": "<p>Website programmed to showcase personal projects in the area of ​​video games. Development done with CodeIgniter (Model View Controller), implementing language localization functions and Presskit to obtain more information about the games presented. Template by Colorlib.</p>"
   },
 
-  "18": {
+  "16": {
     "url": "https://marqcopeques.com/",
     "name": "MarqCó Peques",
     "date": "2019",
@@ -214,7 +247,7 @@ const projectArrayEN = {
     "description": "<p>Front End Web Development. Work done with HTML, CSS and Javascript. Use of automation tools and frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creation of reusable components. Development of version 1.0 of the website, which includes both informative sections and a basic furniture designer; progress on advanced furniture designer.</p>"
   },
 
-  "19": {
+  "17": {
     "url": "",
     "name": "Herdez Hoy Toca",
     "date": "2019",
@@ -224,7 +257,7 @@ const projectArrayEN = {
     "description": "<p>Front End Web Development. Work done with HTML, CSS and Javascript. Use of automation tools and frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creation of reusable components. Main person in charge of the Front End section of the project, which included a Progressive Web App for greater visibility.</p>"
   },
 
-  "20": {
+  "18": {
     "url": "https://poweritems.com.mx/",
     "name": "Power Items 2.0",
     "date": "2019",
@@ -234,7 +267,7 @@ const projectArrayEN = {
     "description": "<p>Updating our digital entertainment platform, focused on two areas: renewing the visual identity and optimizing the platform's functional performance. Made with NodeJS, using HTML (Pug), CSS (Less) and JS (jQuery). Implementation with Codeigniter (PHP, MVC framework) and preparation of a Progressive Web App for mobile devices.</p>"
   },
 
-  "21": {
+  "19": {
     "url": "https://poweritems.com.mx/",
     "name": "Power Items",
     "date": "2017",
@@ -244,7 +277,7 @@ const projectArrayEN = {
     "description": "<p>Digital entertainment platform 'Power Items', active since May 20, 2017, and periodically updated, covering various topics such as video games, movies, series, music, books, thoughts, places and more. Development of web portal and CMS.</p>"
   },
 
-  "22": {
+  "20": {
     "url": "https://ligamx.net/",
     "name": "Liga MX",
     "date": "2017",
@@ -254,7 +287,7 @@ const projectArrayEN = {
     "description": "<p>Layout of reusable sections and components. Main focus on team scoreboards.</p>"
   },
 
-  "23": {
+  "21": {
     "url": "https://grupobimbo.com/es",
     "name": "Grupo Bimbo",
     "date": "2016-2017",
@@ -264,7 +297,7 @@ const projectArrayEN = {
     "description": "<p>Front End Web Development. Work done with HTML, CSS and Javascript. Use of automation tools and frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creation of reusable components. Main focus on timeline and information sections.</p>"
   },
 
-  "26": {
+  "22": {
     "url": "",
     "name": "Laura's album",
     "date": "2014",
@@ -274,7 +307,7 @@ const projectArrayEN = {
     "description": "<p>Created in 2014, 'Laura's Album' was an interactive horror story developed progressively over several weeks in October and November, using a website and Facebook. The site would undergo aesthetic changes until its completion date, at which time a new message was activated for the public.</p>"
   },
 
-  "27": {
+  "23": {
     "url": "https://web.archive.org/web/20140516191837/http://caminosdelalibertad.com.mx/",
     "name": "Caminos de la Libertad",
     "date": "2014",
@@ -284,7 +317,7 @@ const projectArrayEN = {
     "description": "<p>Content platform prepared for easy navigation, both by the public visiting the portal and by the content administrator. Development carried out with CodeIgniter, under the Model View Controller architecture.</p>"
   },
 
-  "28": {
+  "24": {
     "url": "",
     "name": "Alka-Seltzer Boost",
     "date": "2013",
@@ -294,7 +327,7 @@ const projectArrayEN = {
     "description": "<p>Focus on the animations and interactions that populate the site. Development carried out with CodeIgniter, under the Model View Controller architecture.</p>"
   },
 
-  "29": {
+  "25": {
     "url": "",
     "name": "Dove Men NFL",
     "date": "2013",
@@ -525,3 +558,25 @@ const wipsArrayEN = {
 
 }
 
+const eventsArrayEN = {
+  "1": {
+    "url": "https://www.facebook.com/photo/?fbid=775403841262040&set=pcb.775403957928695",
+    "name": "CeCeHachero Film Fest",
+    "date": "2023",
+    "type": "UNAM CCH International Film Festival",
+    "thumb": "./img/thumb-events-2023-cecehachero.jpg",
+    "img": "./img/events-2023-cecehachero.jpg",
+    "description": "<p>Redd's Runaway presented to the audience at CeCeHachero Film Fest 7, accompanied by live gameplay demonstrations and brief commentary on its development.</p><p>Special thanks to Vania Tovilla Quesada for the invitation.</p>"
+  },
+
+  "2": {
+    "url": "https://www.instagram.com/p/Cz7dbUmuf58/?img_index=1",
+    "name": "EGS México",
+    "date": "2023",
+    "type": "Entertainment Gaming Show México",
+    "thumb": "./img/thumb-events-2023-egs.jpg",
+    "img": "./img/events-2023-egs.jpg",
+    "description": "<p>Live gameplay sessions and interviews related to the title Redd's Runaway drew a large number of players thanks to the game's participation in the event's activities.</p><p>Special thanks to Jorge González for the invitation.</p>"
+  },
+
+}
