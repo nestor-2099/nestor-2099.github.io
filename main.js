@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
           elem.addEventListener('click', (event) => {
             event.preventDefault();
             let hash = event.currentTarget.getAttribute('href').replace('#', '');
-            console.log(hash);
+            // console.log(hash);
             
             const id = hash;
             const yOffset = -30; 
@@ -285,7 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let cardElem,
             currentCard = 1;
-        console.log(cardType)
+        // console.log(cardType)
         switch(cardType) {
           case 'experience':
             cardElem = cardContainer.querySelector(".card-experience-elem");
@@ -365,8 +365,12 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.querySelector('.card-project-name h3').textContent = projectArrayES[key].name;
                   if(projectArrayES[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', projectArrayES[key].url);
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', projectArrayES[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', projectArrayES[key].name);
                   }
                   clone.querySelector('.card-project-type').textContent = projectArrayES[key].type;
                   clone.querySelector('.card-project-date').textContent = projectArrayES[key].date;
@@ -392,8 +396,12 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.querySelector('.card-project-name h3').textContent = projectArrayEN[key].name;
                   if(projectArrayEN[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', projectArrayEN[key].url);
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', projectArrayEN[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', projectArrayEN[key].name);
                   }
                   clone.querySelector('.card-project-type').textContent = projectArrayEN[key].type;
                   clone.querySelector('.card-project-date').textContent = projectArrayEN[key].date;
@@ -427,9 +435,13 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.querySelector('.card-project-date').textContent = gamesArrayES[key].date;
                   if(gamesArrayES[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', gamesArrayES[key].url);
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', gamesArrayES[key].name);
                   }
                   if(gamesArrayES[key].url != "") {
                     clone.querySelector('.card-project-name').setAttribute('href', gamesArrayES[key].url);
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', gamesArrayES[key].name);
                   }
     
                   cardContainer.appendChild(clone);
@@ -457,8 +469,12 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.querySelector('.card-project-date').textContent = gamesArrayEN[key].date;
                   if(gamesArrayEN[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', gamesArrayEN[key].url);
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', gamesArrayEN[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', gamesArrayEN[key].name);
                   }
                   if(gamesArrayEN[key].url != "") {
                     clone.querySelector('.card-project-name').setAttribute('href', gamesArrayEN[key].url);
@@ -497,8 +513,12 @@ document.addEventListener("DOMContentLoaded", () => {
                   
                   if(mugenArrayES[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', mugenArrayES[key].url);
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', mugenArrayES[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', mugenArrayES[key].name);
                   }
                   if(mugenArrayES[key].url != "") {
                     clone.querySelector('.card-project-name').setAttribute('href', mugenArrayES[key].url);
@@ -532,8 +552,12 @@ document.addEventListener("DOMContentLoaded", () => {
                   
                   if(mugenArrayEN[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', mugenArrayEN[key].url);
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', mugenArrayEN[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', mugenArrayEN[key].name);
                   }
                   if(mugenArrayEN[key].url != "") {
                     clone.querySelector('.card-project-name').setAttribute('href', mugenArrayEN[key].url);
@@ -570,8 +594,12 @@ document.addEventListener("DOMContentLoaded", () => {
                   
                   if(wipsArrayES[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', wipsArrayES[key].url);
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', wipsArrayES[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', wipsArrayES[key].name);
                   }
     
                   cardContainer.appendChild(clone);
@@ -598,8 +626,12 @@ document.addEventListener("DOMContentLoaded", () => {
                   
                   if(wipsArrayEN[key].url != "") {
                     clone.querySelector('.card-project-link').setAttribute('href', wipsArrayEN[key].url);
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', wipsArrayEN[key].name);
                   } else {
                     clone.querySelector('.card-project-link').classList.add('hidden');
+
+                    clone.querySelector('.card-project-link').setAttribute('aria-label', wipsArrayEN[key].name);
                   }
     
                   cardContainer.appendChild(clone);
@@ -628,8 +660,12 @@ document.addEventListener("DOMContentLoaded", () => {
                   clone.querySelector('.card-event-name h3').textContent = eventsArrayES[key].name;
                   if(eventsArrayES[key].url != "") {
                     clone.querySelector('.card-event-link').setAttribute('href', eventsArrayES[key].url);
+
+                    clone.querySelector('.card-event-link').setAttribute('aria-label', eventsArrayES[key].name);
                   } else {
                     clone.querySelector('.card-event-link').classList.add('hidden');
+
+                    clone.querySelector('.card-event-link').setAttribute('aria-label', eventsArrayES[key].name);
                   }
                   clone.querySelector('.card-event-type').textContent = eventsArrayES[key].type;
                   clone.querySelector('.card-event-date').textContent = eventsArrayES[key].date;
