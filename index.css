@@ -1222,10 +1222,10 @@ header.scrolling {
 	}
 .menu-card:hover {
 		background: linear-gradient(
-			rgb(228 76 101 / 0.25),
-			rgb(228 76 101 / 0.25) 3px,
-			rgb(0 0 0 / 0.15) 3px,
-			rgb(0 0 0 / 0.15) 13px
+			rgb(228 76 101 / 0.10),
+			rgb(228 76 101 / 0.10) 3px,
+			rgb(0 0 0 / 0.10) 3px,
+			rgb(0 0 0 / 0.10) 13px
 		);
 		background-size: 100% 9px;
 		width: 100%;
