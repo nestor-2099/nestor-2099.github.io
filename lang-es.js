@@ -2,8 +2,8 @@ const websiteES = {
   "menu": {
     "home": "Inicio",
     "about": "Acerca de mí",
-    "portfolio": "Portafolio web",
-    "games": "Portafolio de Juegos",
+    "portfolio": "Desarrollo Web",
+    "games": "Videojuegos",
     "mugen": "M.U.G.E.N.",
     "wip": "Trabajo En Progreso",
     "events": "Eventos"
@@ -23,10 +23,10 @@ const websiteES = {
 								"<p>Entre mis proyectos personales he programado contenido para el motor M.U.G.E.N. inspirado por Capcom, la plataforma de entretenimiento y el canal de YouTube Power Items, y Redd's Runaway, un videojuego Run &amp; Gun procedural inspirado por las festividades de Halloween y día de muertos para Windows, disponible en Steam.</p>",
   },
   "portfolio": {
-    "title": "Portafolio web"
+    "title": "Desarrollo web"
   },
   "games": {
-    "title": "Portafolio de juegos",
+    "title": "Videojuegos",
     "platforms": "Plataformas:&nbsp;"
   },
   "mugen": {
