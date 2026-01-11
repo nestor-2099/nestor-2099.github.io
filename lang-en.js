@@ -560,6 +560,26 @@ const wipsArrayEN = {
 
 const eventsArrayEN = {
   "1": {
+    "url": "https://store.steampowered.com/curator/43874062/sale/MexicanEntertainmentSystem",
+    "name": "M.E.S. Sale",
+    "date": "2025",
+    "type": "Mexican Entertainment System",
+    "thumb": "./img/thumb-events-2025-mes.jpg",
+    "img": "./img/events-2025-mes.jpg",
+    "description": "<p>Participation in the Mexican Entertainment System sale, an event that brings together mexican talent to promote and showcase a wide variety of independent titles.</p><p>Special thanks to Blas David Castañeda and the Third World Productions team for the invitation.</p>"
+  },
+  
+  "2": {
+    "url": "https://www.instagram.com/p/Cz7dbUmuf58/?img_index=1",
+    "name": "EGS Mexico",
+    "date": "2023",
+    "type": "Entertainment Gaming Show Mexico",
+    "thumb": "./img/thumb-events-2023-egs.jpg",
+    "img": "./img/events-2023-egs.jpg",
+    "description": "<p>Live gameplay sessions and interviews related to the title Redd's Runaway drew a large number of players thanks to the game's participation in the event's activities.</p><p>Special thanks to Jorge González for the invitation.</p>"
+  },
+
+  "3": {
     "url": "https://www.facebook.com/photo/?fbid=775403841262040&set=pcb.775403957928695",
     "name": "CeCeHachero Film Fest",
     "date": "2023",
@@ -569,14 +589,13 @@ const eventsArrayEN = {
     "description": "<p>Redd's Runaway presented to the audience at CeCeHachero Film Fest 7, accompanied by live gameplay demonstrations and brief commentary on its development.</p><p>Special thanks to Vania Tovilla Quesada for the invitation.</p>"
   },
 
-  "2": {
-    "url": "https://www.instagram.com/p/Cz7dbUmuf58/?img_index=1",
-    "name": "EGS México",
-    "date": "2023",
-    "type": "Entertainment Gaming Show México",
-    "thumb": "./img/thumb-events-2023-egs.jpg",
-    "img": "./img/events-2023-egs.jpg",
-    "description": "<p>Live gameplay sessions and interviews related to the title Redd's Runaway drew a large number of players thanks to the game's participation in the event's activities.</p><p>Special thanks to Jorge González for the invitation.</p>"
+  "4": {
+    "url": "",
+    "name": "Gaming Week Mexico",
+    "date": "2020",
+    "type": "Gaming Week MX",
+    "thumb": "./img/thumb-events-2020-gaming-week.jpg",
+    "img": "./img/events-2020-gaming-week.jpg",
+    "description": "<p>Redd's Runaway presentation on the Main Stage within the KNOW MY GAME section, with a short video highlighting the title's features as a means of introducing new audiences to the world of independent video games in Mexico.</p>"
   },
-
 }

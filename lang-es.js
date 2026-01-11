@@ -561,15 +561,15 @@ const wipsArrayES = {
 
 const eventsArrayES = {
   "1": {
-    "url": "https://www.facebook.com/photo/?fbid=775403841262040&set=pcb.775403957928695",
-    "name": "CeCeHachero Film Fest",
-    "date": "2023",
-    "type": "Festival Internacional de Cine del CCH de la UNAM",
-    "thumb": "./img/thumb-events-2023-cecehachero.jpg",
-    "img": "./img/events-2023-cecehachero.jpg",
-    "description": "<p>Presentación de Redd's Runaway frente al foro asistente al CeCeHachero Film Fest 7, de la mano con partidas presenciales del juego y breves comentarios sobre su desarrollo.</p><p>Agradecimiento especial a Vania Tovilla Quesada por la invitación.</p>"
+    "url": "https://store.steampowered.com/curator/43874062/sale/MexicanEntertainmentSystem",
+    "name": "Venta M.E.S.",
+    "date": "2025",
+    "type": "Mexican Entertainment System",
+    "thumb": "./img/thumb-events-2025-mes.jpg",
+    "img": "./img/events-2025-mes.jpg",
+    "description": "<p>Participación en la venta Mexican Entertainment System, evento que concentra talento mexicano para promover y promocionar una amplia variedad de títulos independientes.</p><p>Agradecimiento especial a Blas David Castañeda y el equipo de Third World Productions por la invitación.</p>"
   },
-
+  
   "2": {
     "url": "https://www.instagram.com/p/Cz7dbUmuf58/?img_index=1",
     "name": "EGS México",
@@ -580,4 +580,23 @@ const eventsArrayES = {
     "description": "<p>Partidas presenciales y entrevistas relacionadas al título Redd's Runaway, con una fuerte afluencia de jugadores gracias a la participación del título en las dinámicas propuestas dentro del evento.</p><p>Agradecimiento especial a Jorge González por la invitación.</p>"
   },
 
+  "3": {
+    "url": "https://www.facebook.com/photo/?fbid=775403841262040&set=pcb.775403957928695",
+    "name": "CeCeHachero Film Fest",
+    "date": "2023",
+    "type": "Festival Internacional de Cine del CCH de la UNAM",
+    "thumb": "./img/thumb-events-2023-cecehachero.jpg",
+    "img": "./img/events-2023-cecehachero.jpg",
+    "description": "<p>Presentación de Redd's Runaway frente al foro asistente al CeCeHachero Film Fest 7, de la mano con partidas presenciales del juego y breves comentarios sobre su desarrollo.</p><p>Agradecimiento especial a Vania Tovilla Quesada por la invitación.</p>"
+  },
+
+  "4": {
+    "url": "",
+    "name": "Gaming Week México",
+    "date": "2020",
+    "type": "Gaming Week MX",
+    "thumb": "./img/thumb-events-2020-gaming-week.jpg",
+    "img": "./img/events-2020-gaming-week.jpg",
+    "description": "<p>Presentación de Redd's Runaway en el Main Stage dentro de la sección KNOW MY GAME, con un breve video señalando las características del título como medio de difusión a nuevo público adentrándose al mundo de los videojuegos independientes de México.</p>"
+  },
 }
