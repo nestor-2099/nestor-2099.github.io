@@ -277,7 +277,12 @@ document.addEventListener("DOMContentLoaded", () => {
      */
     const projectCardsController = () => {
       const cardContainers = document.querySelectorAll(".card-project-container");
+      const cardRemove = document.querySelectorAll(".remove");
       
+
+      cardRemove.forEach(function(cardElem) {
+        cardElem.remove();
+      });
 
       cardContainers.forEach(function(cardContainer) {
         const cardType = cardContainer.getAttribute('data-type'),
