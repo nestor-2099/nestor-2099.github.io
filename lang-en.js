@@ -299,16 +299,6 @@ const projectArrayEN = {
   },
 
   "22": {
-    "url": "",
-    "name": "Laura's album",
-    "date": "2014",
-    "type": "Personal project",
-    "thumb": "./img/thumb-album-laura.jpg",
-    "img": "./img/album-laura.jpg",
-    "description": "<p>Created in 2014, 'Laura's Album' was an interactive horror story developed progressively over several weeks in October and November, using a website and Facebook. The site would undergo aesthetic changes until its completion date, at which time a new message was activated for the public.</p>"
-  },
-
-  "23": {
     "url": "https://web.archive.org/web/20140516191837/http://caminosdelalibertad.com.mx/",
     "name": "Caminos de la Libertad",
     "date": "2014",
@@ -318,7 +308,7 @@ const projectArrayEN = {
     "description": "<p>Content platform prepared for easy navigation, both by the public visiting the portal and by the content administrator. Development carried out with CodeIgniter, under the Model View Controller architecture.</p>"
   },
 
-  "24": {
+  "23": {
     "url": "",
     "name": "Alka-Seltzer Boost",
     "date": "2013",
@@ -328,7 +318,7 @@ const projectArrayEN = {
     "description": "<p>Focus on the animations and interactions that populate the site. Development carried out with CodeIgniter, under the Model View Controller architecture.</p>"
   },
 
-  "25": {
+  "24": {
     "url": "",
     "name": "Dove Men NFL",
     "date": "2013",
@@ -405,7 +395,7 @@ const gamesArrayEN = {
   },
 
   "7": {
-    "url": "",
+    "url": "#",
     "name": "Loa",
     "date": "2015",
     "platforms": "Android",
@@ -425,6 +415,16 @@ const gamesArrayEN = {
   },
 
   "9": {
+    "url": "#",
+    "name": "Laura's album",
+    "date": "2014",
+    "platforms": "Web",
+    "type": "Personal project",
+    "thumb": "./img/album-laura.jpg",
+    "description": "<p>Created in 2014, 'Laura's Album' was an interactive horror story developed progressively over several weeks in October and November, using a website and Facebook. The site would undergo aesthetic changes until its completion date, at which time a new message was activated for the public.</p>"
+  },
+
+  "10": {
     "url": "https://youtu.be/mTRzgQYvGeU",
     "name": "Abadon",
     "date": "2012",
@@ -432,6 +432,16 @@ const gamesArrayEN = {
     "type": "Degree project",
     "thumb": "./img/thumb-abadon.jpg",
     "description": "<p>3d Beat 'Em Up Multiplayer VideoGame; graduation project for the Escuela Superior de Cómputo (ESCOM), which includes both the theoretical part and a two-level playable demo. Tools: Microsoft Visual C#, XNA 4.0.</p>"
+  },
+
+  "11": {
+    "url": "https://www.ign.com/articles/2007/02/01/mortal-kombat-kollection-faq-spanish-743191",
+    "name": "Mortal Kombat Armageddon Guide",
+    "date": "2007",
+    "platforms": "PlayStation 2, X-Box, Wii",
+    "type": "Game guide",
+    "thumb": "./img/thumb-games-2006-mka.jpg",
+    "description": "<p>A guide for Midway's title 'Mortal Kombat Armageddon' in spanish, published on sites such as Mortal-Kombat.org, IGN, Gamespot, GameFAQs, and MeriStation. Focused on character moves, stages, the krypt and Kreate-A-Fighter.</p>"
   },
 }
 

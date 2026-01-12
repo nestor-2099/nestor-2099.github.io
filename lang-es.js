@@ -299,16 +299,6 @@ const projectArrayES = {
   },
 
   "22": {
-    "url": "",
-    "name": "El álbum de Laura",
-    "date": "2014",
-    "type": "Proyecto Personal",
-    "thumb": "./img/thumb-album-laura.jpg",
-    "img": "./img/album-laura.jpg",
-    "description": "<p>Creado en el año 2014, 'El álbum de Laura' fue una historia interactiva de horror desarrollada de manera progresiva durante varias semanas de Octubre y Noviembre, haciendo uso de un sitio web y Facebook. El sitio sufriría cambios estéticos hasta su fecha de culminación, momento en el que se activaba un nuevo mensaje al público.</p>"
-  },
-
-  "23": {
     "url": "https://web.archive.org/web/20140516191837/http://caminosdelalibertad.com.mx/",
     "name": "Caminos de la Libertad",
     "date": "2014",
@@ -318,7 +308,7 @@ const projectArrayES = {
     "description": "<p>Plataforma de contenido preparada para una fácil navegación, tanto por el público que visita el portal como por la administradora de contenido. Desarrollo realizado con CodeIgniter, bajo la arquitectura Modelo Vista Controlador.</p>"
   },
 
-  "24": {
+  "23": {
     "url": "",
     "name": "Alka-Seltzer Boost",
     "date": "2013",
@@ -328,7 +318,7 @@ const projectArrayES = {
     "description": "<p>Enfoque en las animaciones e interacciones que habitan el sitio. Desarrollo realizado con CodeIgniter, bajo la arquitectura Modelo Vista Controlador.</p>"
   },
 
-  "25": {
+  "24": {
     "url": "",
     "name": "Dove Men NFL",
     "date": "2013",
@@ -424,6 +414,16 @@ const gamesArrayES = {
   },
 
   "9": {
+    "url": "",
+    "name": "El álbum de Laura",
+    "date": "2014",
+    "platforms": "Web",
+    "type": "Proyecto Personal",
+    "thumb": "./img/album-laura.jpg",
+    "description": "<p>Creado en el año 2014, 'El álbum de Laura' fue una historia interactiva de horror desarrollada de manera progresiva durante varias semanas de Octubre y Noviembre, haciendo uso de un sitio web y Facebook. El sitio sufriría cambios estéticos hasta su fecha de culminación, momento en el que se activaba un nuevo mensaje al público.</p>"
+  },
+  
+  "10": {
     "url": "https://youtu.be/mTRzgQYvGeU",
     "name": "Abadon",
     "date": "2012",
@@ -431,6 +431,16 @@ const gamesArrayES = {
     "type": "Proyecto de titulación",
     "thumb": "./img/thumb-abadon.jpg",
     "description": "<p>Videojuego Beat 'Em Up Multijugador en Tercera Dimensión; proyecto de titulación para la Escuela Superior de Cómputo (ESCOM), el cuál incluye tanto la parte teórica como una demostración jugable de dos niveles. Herramientas: Microsoft Visual C#, XNA 4.0.</p>"
+  },
+
+  "11": {
+    "url": "https://www.ign.com/articles/2007/02/01/mortal-kombat-kollection-faq-spanish-743191",
+    "name": "Guía Mortal Kombat Armageddon",
+    "date": "2007",
+    "platforms": "PlayStation 2, X-Box, Wii",
+    "type": "Guía de juego",
+    "thumb": "./img/thumb-games-2006-mka.jpg",
+    "description": "<p>Guía del título de Midway 'Mortal Kombat Armageddon' en español, publicada en sitios como Mortal-Kombat.org, IGN, Gamespot, GameFAQs y MeriStation. Enfoque en los movimientos de personajes, escenarios, la kripta y Kreate-A-Fighter.</p>"
   },
   
 }
