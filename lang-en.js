@@ -13,7 +13,7 @@ const websiteEN = {
   },
   "hero": {
     "header": "Hey there, I'm Néstor García",
-    "title": "Web and video game front-end developer based in Mexico City, focused on accessible, engaging, and functional experiences"
+    "title": "Front-End Developer | Experience with JavaScript, HTML, CSS | Web and video game development in Mexico City"
   },
   "about": {
     "title": "About me",
@@ -53,7 +53,7 @@ const experienceArrayEN = {
     "name": "Web Front-End",
     "icon": "bx-code-alt",
     "bullets": [
-      "Technology and frameworks: HTML, CSS, JavaScript, NodeJS, Gulp, Pug, Stylus, Less, Tailwind, jQuery, React, HubSpot, BitBucket.",
+      "Technology and frameworks: HTML, CSS, JavaScript, NodeJS, Gulp, Pug, Stylus, Less, Tailwind, Bootstrap, jQuery, React, HubSpot, BitBucket.",
       "Responsive website design.",
       "Performance and page load speed testing.",
       "API connection.",
@@ -571,7 +571,7 @@ const eventsArrayEN = {
   
   "2": {
     "url": "https://www.instagram.com/p/Cz7dbUmuf58/?img_index=1",
-    "name": "EGS Mexico",
+    "name": "EGS Mexico SurvivAll",
     "date": "2023",
     "type": "Entertainment Gaming Show Mexico",
     "thumb": "./img/thumb-events-2023-egs.jpg",

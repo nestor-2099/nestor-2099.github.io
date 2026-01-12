@@ -520,7 +520,7 @@ section {
   }
 }
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 h1, .h1 {
   margin-bottom: 1.5rem;
@@ -528,7 +528,7 @@ h1, .h1 {
   font-weight: 700;
   line-height: 44px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 
   h1, .h1 {
     font-size: 48px;
@@ -541,7 +541,7 @@ h2, .h2 {
   font-weight: 500;
   line-height: 38px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 
   h2, .h2 {
     font-size: 42px;
@@ -554,7 +554,7 @@ h3, .h3 {
   font-weight: 500;
   line-height: 32px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 
   h3, .h3 {
     font-size: 36px;
@@ -567,7 +567,7 @@ h4, .h4 {
   font-weight: 500;
   line-height: 26px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 
   h4, .h4 {
     font-size: 30px;
@@ -1482,9 +1482,9 @@ header.scrolling {
     min-width: 145px;
   }
 
-  .sm\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 @media (min-width: 768px) {
@@ -1539,36 +1539,8 @@ header.scrolling {
     padding-bottom: 60px;
   }
 
-  .md\:text-\[30px\] {
-    font-size: 30px;
-  }
-
-  .md\:text-\[36px\] {
-    font-size: 36px;
-  }
-
-  .md\:text-\[42px\] {
-    font-size: 42px;
-  }
-
-  .md\:text-\[48px\] {
-    font-size: 48px;
-  }
-
-  .md\:leading-\[38px\] {
-    line-height: 38px;
-  }
-
-  .md\:leading-\[44px\] {
-    line-height: 44px;
-  }
-
-  .md\:leading-\[50px\] {
-    line-height: 50px;
-  }
-
-  .md\:leading-\[56px\] {
-    line-height: 56px;
+  .md\:text-left {
+    text-align: left;
   }
 }
 @media (min-width: 1024px) {
@@ -1621,8 +1593,40 @@ header.scrolling {
     font-size: 24px;
   }
 
+  .lg\:text-\[30px\] {
+    font-size: 30px;
+  }
+
+  .lg\:text-\[36px\] {
+    font-size: 36px;
+  }
+
+  .lg\:text-\[42px\] {
+    font-size: 42px;
+  }
+
+  .lg\:text-\[48px\] {
+    font-size: 48px;
+  }
+
   .lg\:leading-\[32px\] {
     line-height: 32px;
+  }
+
+  .lg\:leading-\[38px\] {
+    line-height: 38px;
+  }
+
+  .lg\:leading-\[44px\] {
+    line-height: 44px;
+  }
+
+  .lg\:leading-\[50px\] {
+    line-height: 50px;
+  }
+
+  .lg\:leading-\[56px\] {
+    line-height: 56px;
   }
 
   .hover\:lg\:max-w-full:hover {
@@ -1633,6 +1637,11 @@ header.scrolling {
 
   .xl\:p-8 {
     padding: 2rem;
+  }
+
+  .xl\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
