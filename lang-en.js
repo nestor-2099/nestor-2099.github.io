@@ -20,7 +20,8 @@ const websiteEN = {
     "paragraph": "<p>Thanks for your visit! Throughout my career, I've worked on content platforms, promotional sites, informational sites, CMS, landing pages, interactive web experiences, and video games.</p>"+
 									"<p>I'm looking to collaborate on developing captivating experiences that provide value to their audience, considering limitations as a boost for creativity and problem-solving.</p>"+
 									"<p>I've participated in projects for Alka-Seltzer, Caminos de la Libertad, Bimbo, Liga MX, TecSalud, Universidad Anáhuac, Talana, and Tecmilenio, among others.</p>"+
-                  "<p>My personal projects include programming content for the M.U.G.E.N. engine inspired by Capcom, the entertainment platform and YouTube channel Power Items, and Redd's Runaway, a procedural run-and-gun game inspired by Halloween and Day of the Dead festivities for Windows, available on Steam.</p>"
+                  "<p>My personal projects include programming content for the M.U.G.E.N. engine inspired by Capcom, the entertainment platform and YouTube channel Power Items, and Redd's Runaway, a procedural run-and-gun game inspired by Halloween and Day of the Dead festivities for Windows, available on Steam.</p>",
+    "download": "Download Curriculum Vitae"
   },
   "portfolio": {
     "title": "Web Development"

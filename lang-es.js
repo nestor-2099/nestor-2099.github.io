@@ -21,6 +21,7 @@ const websiteES = {
 								"<p>Busco colaborar en el desarrollo de experiencias cautivantes que brinden valor a su público, considerando las limitaciones como un impulso para el área creativa y la resolución de problemas.</p>"+
 								"<p>Es así que he participado en proyectos para Alka-Seltzer, Caminos de la Libertad, Bimbo, Liga MX, TecSalud, Universidad Anáhuac, Talana y Tecmilenio, entre otros.</p>"+
 								"<p>Entre mis proyectos personales he programado contenido para el motor M.U.G.E.N. inspirado por Capcom, la plataforma de entretenimiento y el canal de YouTube Power Items, y Redd's Runaway, un videojuego Run &amp; Gun procedural inspirado por las festividades de Halloween y día de muertos para Windows, disponible en Steam.</p>",
+    "download": "Descargar Curriculum Vitae"
   },
   "portfolio": {
     "title": "Desarrollo web"
