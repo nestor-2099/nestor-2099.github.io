@@ -333,7 +333,17 @@ const projectArrayEN = {
 
 
 const gamesArrayEN = {
-"1": {
+  "0": {
+    "url": "https://store.steampowered.com/app/3084880/Defy_The_Abyss/",
+    "name": "Defy The Abyss",
+    "date": "2026",
+    "platforms": "PC, Linux, Steam Deck",
+    "type": "Commercial videogame",
+    "thumb": "./img/defy-the-abyss.png",
+    "description": "<p>Survive relentless hordes in a dungeon deep within the Abyss. Swap between two sorcerers, unleash powerful attack combinations, and crush nightmares, demons, and immense horrors to grow stronger with every run.</p>",
+  },
+  
+  "1": {
     "url": "https://hagenhb.itch.io/chopped-tomato",
     "name": "Chopped Tomato",
     "date": "2024",
@@ -533,33 +543,26 @@ const mugenArrayEN = {
 const wipsArrayEN = {
   "1": {
     "url": "",
-    "name": "Spin-Off Runaway",
-    "origin": "Commercial videogame",
-    "description": "<p>Top-down shooter game set in the world of Redd's Runaway, developed in Godot Engine</p>",
-    "thumb": "./img/spinoff-runaway-01.png",
-  },
-  "2": {
-    "url": "",
     "name": "Morrigan",
     "origin": "DarkStalkers, Marvel Vs. Capcom",
     "description": "<p>MUGEN Character | Fighting System: Versus Series</p>",
     "thumb": "./img/morrigan-01.png",
   },
-  "3": {
+  "2": {
     "url": "",
     "name": "Batsu",
     "origin": "Rival Schools, Tatsunoko Vs. Capcom",
     "description": "<p>MUGEN Character | Fighting System: Versus Series</p>",
     "thumb": "./img/batsu-01.png",
   },
-  "4": {
+  "3": {
     "url": "",
     "name": "Rouge",
     "origin": "Power Stone",
     "description": "<p>MUGEN Character | Fighting System: Versus Series</p>",
     "thumb": "./img/rouge-01.png",
   },
-  "5": {
+  "4": {
     "url": "",
     "name": "Leon S. Kennedy",
     "origin": "Resident Evil",

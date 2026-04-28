@@ -333,6 +333,15 @@ const projectArrayES = {
 
 
 const gamesArrayES = {
+  "0": {
+    "url": "https://store.steampowered.com/app/3084880/Defy_The_Abyss/",
+    "name": "Defy The Abyss",
+    "date": "2026",
+    "platforms": "PC, Linux, Steam Deck",
+    "type": "Videojuego comercial",
+    "thumb": "./img/defy-the-abyss.png",
+    "description": "<p>Sobrevive a hordas implacables en un calabozo en las profundidades del Abismo. Cambia entre dos hechiceros, desata poderosas combinaciones de ataques y aplasta pesadillas, demonios y horrores imponentes para hacerte más fuerte con cada partida.</p>",
+  },
   "1": {
     "url": "https://hagenhb.itch.io/chopped-tomato",
     "name": "Chopped Tomato",
@@ -533,33 +542,26 @@ const mugenArrayES = {
 const wipsArrayES = {
   "1": {
     "url": "",
-    "name": "Spin-Off Runaway",
-    "origin": "Videojuego comercial",
-    "description": "<p>Videojuego top-down shooter dentro del mundo de Redd's Runaway, desarrollado en Godot Engine</p>",
-    "thumb": "./img/spinoff-runaway-01.png",
-  },
-  "2": {
-    "url": "",
     "name": "Morrigan",
     "origin": "DarkStalkers, Marvel Vs. Capcom",
     "description": "<p>Personaje MUGEN | Sistema de pelea: Versus series</p>",
     "thumb": "./img/morrigan-01.png",
   },
-  "3": {
+  "2": {
     "url": "",
     "name": "Batsu",
     "origin": "Rival Schools, Tatsunoko Vs. Capcom",
     "description": "<p>Personaje MUGEN | Sistema de pelea: Versus series</p>",
     "thumb": "./img/batsu-01.png",
   },
-  "4": {
+  "3": {
     "url": "",
     "name": "Rouge",
     "origin": "Power Stone",
     "description": "<p>Personaje MUGEN | Sistema de pelea: Versus series</p>",
     "thumb": "./img/rouge-01.png",
   },
-  "5": {
+  "4": {
     "url": "",
     "name": "Leon S. Kennedy",
     "origin": "Resident Evil",
