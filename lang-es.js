@@ -13,7 +13,7 @@ const websiteES = {
   },
   "hero": {
     "header": "Hola, soy Néstor García",
-    "title": "Front-End Developer | Experiencia con JavaScript, HTML, CSS | Desarrollo web y de videojuegos en CDMX",
+    "title": "Front-End Web Developer · Game Developer / Game Designer en CDMX",
   },
   "about": {
     "title": "Acerca de mí",
