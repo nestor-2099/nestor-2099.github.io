@@ -13,7 +13,7 @@ const websiteEN = {
   },
   "hero": {
     "header": "Hey there, I'm Néstor García",
-    "title": "Front-End Developer | Experience with JavaScript, HTML, CSS | Web and video game development in Mexico City"
+    "title": "Front-End Web Developer · Game Developer / Game Designer in Mexico City"
   },
   "about": {
     "title": "About me",
