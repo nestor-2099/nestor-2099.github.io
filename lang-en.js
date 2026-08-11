@@ -457,6 +457,15 @@ const gamesArrayEN = {
 
 const mugenArrayEN = {
   "1": {
+    "url": "https://mugenguild.com/forum/topics/morrigan-vs-series-202035.0.html",
+    "name": "Morrigan",
+    "origin": "DarkStalkers, Marvel Vs. Capcom",
+    "description": "<p>MUGEN Character | Fighting System: Versus Series</p>",
+    "thumb": "./img/morrigan-01.png",
+	"release": "2026-07-24",
+    "update": "2026-07-24",
+  },
+  "2": {
     "url": "https://www.infinitymugenteam.com/Forum_345/index.php?topic=48637.msg561596;topicseen#new",
     "name": "Shuma-Gorath",
     "origin": "Doctor Strange, Marvel Vs. Capcom 2",
@@ -465,7 +474,7 @@ const mugenArrayEN = {
     "release": "2022-02-20",
     "update": "2022-02-22",
   },
-  "2": {
+  "3": {
     "url": "https://mugenguild.com/forum/topics/fiona-versus-series-style-177008.0.html",
     "name": "Fiona Belli",
     "origin": "Haunting Ground",
@@ -474,7 +483,7 @@ const mugenArrayEN = {
     "release": "2016-10-31",
     "update": "2016-10-31",
   },
-  "3": {
+  "4": {
     "url": "https://mugenguild.com/forum/topics/chris-redfield-public-version-release-154705.0.html",
     "name": "Chris Redfield",
     "origin": "Resident Evil, Marvel Vs. Capcom 3",
@@ -483,7 +492,7 @@ const mugenArrayEN = {
     "release": "2013-10-31",
     "update": "2013-10-31",
   },
-  "4": {
+  "5": {
     "url": "https://infinitymugenteam.com/nestor/chars/legacy/ViewtifulJoe_CFAS.zip",
     "name": "Viewtiful Joe",
     "origin": "Viewtiful Joe, Tatsunoko Vs. Capcom",
@@ -492,7 +501,7 @@ const mugenArrayEN = {
     "release": "2012",
     "update": "2012",
   },
-  "5": {
+  "6": {
     "url": "https://infinitymugenteam.com/nestor/chars/legacy/Leo_CFAS.zip",
     "name": "Leo",
     "origin": "Red Earth, Capcom Fighting Evolution",
@@ -501,7 +510,7 @@ const mugenArrayEN = {
     "release": "2012",
     "update": "2012",
   },
-  "6": {
+  "7": {
     "url": "https://infinitymugenteam.com/nestor/chars/legacy/Ryu_CFAS.zip",
     "name": "Ryu",
     "origin": "Street Fighter, Marvel Vs. Capcom, Tatsunoko Vs. Capcom",
@@ -510,7 +519,7 @@ const mugenArrayEN = {
     "release": "2012",
     "update": "2012",
   },
-  "7": {
+  "8": {
     "url": "http://www.infinitymugenteam.com/Forum_345/index.php?topic=42358.0",
     "name": "Marvel Vs. Capcom UDB Demo",
     "origin": "Marvel Vs. Capcom series",
@@ -519,7 +528,7 @@ const mugenArrayEN = {
     "release": "2014-01-02",
     "update": "2014-01-02",
   },
-  "8": {
+  "9": {
     "url": "https://www.infinitymugenteam.com/Forum_345/index.php?topic=49147.msg563207",
     "name": "Megaman Robot Master Mayhem contributor",
     "origin": "Megaman, Marvel Vs. Capcom",
@@ -528,7 +537,7 @@ const mugenArrayEN = {
     "release": "2012",
     "update": "2024",
   },
-  "9": {
+  "10": {
     "url": "https://infinitymugenteam.com/nestor/versus-lifebars_2016-07-10.zip",
     "name": "Versus series lifebars",
     "origin": "Original Lifebar set",
@@ -543,26 +552,19 @@ const mugenArrayEN = {
 const wipsArrayEN = {
   "1": {
     "url": "",
-    "name": "Morrigan",
-    "origin": "DarkStalkers, Marvel Vs. Capcom",
-    "description": "<p>MUGEN Character | Fighting System: Versus Series</p>",
-    "thumb": "./img/morrigan-01.png",
-  },
-  "2": {
-    "url": "",
     "name": "Batsu",
     "origin": "Rival Schools, Tatsunoko Vs. Capcom",
     "description": "<p>MUGEN Character | Fighting System: Versus Series</p>",
     "thumb": "./img/batsu-01.png",
   },
-  "3": {
+  "2": {
     "url": "",
     "name": "Rouge",
     "origin": "Power Stone",
     "description": "<p>MUGEN Character | Fighting System: Versus Series</p>",
     "thumb": "./img/rouge-01.png",
   },
-  "4": {
+  "3": {
     "url": "",
     "name": "Leon S. Kennedy",
     "origin": "Resident Evil",
