@@ -339,7 +339,7 @@ const gamesArrayES = {
     "date": "2026",
     "platforms": "PC, Linux, Steam Deck",
     "type": "Videojuego comercial",
-    "thumb": "./img/defy-the-abyss.png",
+    "thumb": "./img/thumb-defy-the-abyss.png",
     "description": "<p>Sobrevive a hordas implacables en un calabozo en las profundidades del Abismo. Cambia entre dos hechiceros, desata poderosas combinaciones de ataques y aplasta pesadillas, demonios y horrores imponentes para hacerte más fuerte con cada partida.</p>",
   },
   "1": {
