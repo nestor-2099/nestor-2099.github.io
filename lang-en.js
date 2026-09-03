@@ -339,7 +339,7 @@ const gamesArrayEN = {
     "date": "2026",
     "platforms": "PC, Linux, Steam Deck",
     "type": "Commercial videogame",
-    "thumb": "./img/defy-the-abyss.png",
+    "thumb": "./img/thumb-defy-the-abyss.png",
     "description": "<p>Survive relentless hordes in a dungeon deep within the Abyss. Swap between two sorcerers, unleash powerful attack combinations, and crush nightmares, demons, and immense horrors to grow stronger with every run.</p>",
   },
   
