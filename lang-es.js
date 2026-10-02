@@ -21,7 +21,7 @@ const websiteES = {
                 "<p>He participado en proyectos digitales, desde la planeación y definición de requerimientos hasta su implementación y lanzamiento, trabajando con tecnologías web, APIs y sistemas de gestión de contenido, junto a mi trayectoria como Game Developer y Game Designer, desarrollando productos digitales y videojuegos independientes.</p>"+
                 "<p>Me interesa crear experiencias digitales que brinden valor a su público, combinando la programación, UX/UI y la resolución de problemas.</p>"+
                 "<p>He participado en proyectos para Alka-Seltzer, Caminos de la Libertad, Bimbo, Liga MX, TecSalud, Universidad Anáhuac, Talana y Tecmilenio, entre otros.</p>"+
-                "<p>Entre mis proyectos personales, desarrollé la plataforma de entretenimiento y el canal de YouTube Power Items, y los videojuegos <strong>Redd's Runaway</strong> y <strong>Defy The Abyss</strong>, inspirados por las festividades de Halloween y día de muertos para Windows, Linux y Steam Deck.</p>",
+                "<p>Entre mis proyectos personales, desarrollé la plataforma de entretenimiento y el canal de YouTube <strong>Power Items</strong>, y los videojuegos <strong>Redd's Runaway</strong> y <strong>Defy The Abyss</strong>, inspirados por las festividades de Halloween y día de muertos para Windows, Linux y Steam Deck.</p>",
     "download": "Descargar CV"
   },
   "portfolio": {
