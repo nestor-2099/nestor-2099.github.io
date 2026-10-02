@@ -13,15 +13,16 @@ const websiteES = {
   },
   "hero": {
     "header": "Hola, soy Néstor García",
-    "title": "Front-End Web Developer · Game Developer / Game Designer en CDMX",
+    "title": "Web Developer | Front-End | Game Developer / Game Designer",
   },
   "about": {
     "title": "Acerca de mí",
-    "paragraph": "<p>¡Gracias por tu visita! A lo largo de mi carrera he trabajado en plataformas de contenido, sitios de promoción, sitios informativos, CMS, landing pages, experiencias web interactivas y videojuegos.</p>"+
-								"<p>Busco colaborar en el desarrollo de experiencias cautivantes que brinden valor a su público, considerando las limitaciones como un impulso para el área creativa y la resolución de problemas.</p>"+
-								"<p>Es así que he participado en proyectos para Alka-Seltzer, Caminos de la Libertad, Bimbo, Liga MX, TecSalud, Universidad Anáhuac, Talana y Tecmilenio, entre otros.</p>"+
-								"<p>Entre mis proyectos personales he programado contenido para el motor M.U.G.E.N. inspirado por Capcom, la plataforma de entretenimiento y el canal de YouTube Power Items, y Redd's Runaway, un videojuego Run &amp; Gun procedural inspirado por las festividades de Halloween y día de muertos para Windows, disponible en Steam.</p>",
-    "download": "Descargar Curriculum Vitae"
+    "paragraph": "<p>Desarrollador web, con amplia experiencia en la creación y mantenimiento de plataformas de contenido, sitios informativos, CMS, landing pages y experiencias interactivas, especializado en el desarrollo Front-End.</p>"+
+                "<p>He participado en proyectos digitales, desde la planeación y definición de requerimientos hasta su implementación y lanzamiento, trabajando con tecnologías web, APIs y sistemas de gestión de contenido, junto a mi trayectoria como Game Developer y Game Designer, desarrollando productos digitales y videojuegos independientes.</p>"+
+                "<p>Me interesa crear experiencias digitales que brinden valor a su público, combinando la programación, UX/UI y la resolución de problemas.</p>"+
+                "<p>He participado en proyectos para Alka-Seltzer, Caminos de la Libertad, Bimbo, Liga MX, TecSalud, Universidad Anáhuac, Talana y Tecmilenio, entre otros.</p>"+
+                "<p>Entre mis proyectos personales, desarrollé la plataforma de entretenimiento y el canal de YouTube Power Items, y los videojuegos <strong>Redd's Runaway</strong> y <strong>Defy The Abyss</strong>, inspirados por las festividades de Halloween y día de muertos para Windows, Linux y Steam Deck.</p>";
+    "download": "Descargar CV"
   },
   "portfolio": {
     "title": "Desarrollo web"
