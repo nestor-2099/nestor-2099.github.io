@@ -21,7 +21,7 @@ const websiteEN = {
 				"<p>I have worked on digital projects—spanning everything from planning and requirements definition to implementation and launch—using web technologies, APIs, and content management systems. My background also includes work as a game developer and game designer, creating digital products and indie video games.</p>"+
 				"<p>I am passionate about creating digital experiences that deliver value to audiences by combining programming, UX/UI design, and problem-solving.</p>"+
 				"<p>I have contributed to projects for clients such as Alka-Seltzer, Caminos de la Libertad, Bimbo, Liga MX, TecSalud, Universidad Anáhuac, Talana, and Tecmilenio, among others.</p>"+
-				"<p>My personal projects include the development of the entertainment platform and YouTube channel "Power Items," as well as the video games <strong>Redd's Runaway</strong> and <strong>Defy The Abyss</strong>—titles inspired by Halloween and Day of the Dead festivities, developed for Windows, Linux, and Steam Deck.</p>",
+				"<p>My personal projects include the development of the entertainment platform and YouTube channel <strong>Power Items</strong>, as well as the video games <strong>Redd's Runaway</strong> and <strong>Defy The Abyss</strong>—titles inspired by Halloween and Day of the Dead festivities, developed for Windows, Linux, and Steam Deck.</p>",
     "download": "Download CV"
   },
   "portfolio": {
