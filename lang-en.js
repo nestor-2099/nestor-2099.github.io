@@ -13,15 +13,16 @@ const websiteEN = {
   },
   "hero": {
     "header": "Hey there, I'm Néstor García",
-    "title": "Front-End Web Developer · Game Developer / Game Designer in Mexico City"
+    "title": "Web Developer | Front-End | Game Developer / Game Designer"
   },
   "about": {
     "title": "About me",
-    "paragraph": "<p>Thanks for your visit! Throughout my career, I've worked on content platforms, promotional sites, informational sites, CMS, landing pages, interactive web experiences, and video games.</p>"+
-									"<p>I'm looking to collaborate on developing captivating experiences that provide value to their audience, considering limitations as a boost for creativity and problem-solving.</p>"+
-									"<p>I've participated in projects for Alka-Seltzer, Caminos de la Libertad, Bimbo, Liga MX, TecSalud, Universidad Anáhuac, Talana, and Tecmilenio, among others.</p>"+
-                  "<p>My personal projects include programming content for the M.U.G.E.N. engine inspired by Capcom, the entertainment platform and YouTube channel Power Items, and Redd's Runaway, a procedural run-and-gun game inspired by Halloween and Day of the Dead festivities for Windows, available on Steam.</p>",
-    "download": "Download Curriculum Vitae"
+    "paragraph": "<p>A web developer with extensive experience in creating and maintaining content platforms, informational sites, CMS, landing pages, and interactive experiences, specializing in front-end development.</p>"+
+				"<p>I have worked on digital projects—spanning everything from planning and requirements definition to implementation and launch—using web technologies, APIs, and content management systems. My background also includes work as a game developer and game designer, creating digital products and indie video games.</p>"+
+				"<p>I am passionate about creating digital experiences that deliver value to audiences by combining programming, UX/UI design, and problem-solving.</p>"+
+				"<p>I have contributed to projects for clients such as Alka-Seltzer, Caminos de la Libertad, Bimbo, Liga MX, TecSalud, Universidad Anáhuac, Talana, and Tecmilenio, among others.</p>"+
+				"<p>My personal projects include the development of the entertainment platform and YouTube channel "Power Items," as well as the video games <strong>Redd's Runaway</strong> and <strong>Defy The Abyss</strong>—titles inspired by Halloween and Day of the Dead festivities, developed for Windows, Linux, and Steam Deck.</p>",
+    "download": "Download CV"
   },
   "portfolio": {
     "title": "Web Development"
