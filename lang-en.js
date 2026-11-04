@@ -55,7 +55,7 @@ const experienceArrayEN = {
     "name": "Web Front-End",
     "icon": "bx-code-alt",
     "bullets": [
-      "Technology and frameworks: HTML, CSS, JavaScript, NodeJS, Gulp, Pug, Stylus, Less, Tailwind, Bootstrap, jQuery, React, HubSpot, BitBucket.",
+      "Technology and frameworks: HTML, CSS, JavaScript, NodeJS, Gulp, Pug, Stylus, Less, Tailwind CSS, Bootstrap, jQuery, React, HubSpot, BitBucket.",
       "Responsive website design.",
       "Performance and page load speed testing.",
       "API connection.",
