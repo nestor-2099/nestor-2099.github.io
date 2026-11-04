@@ -55,12 +55,12 @@ const experienceArrayES = {
     "name": "Front-End Web",
     "icon": "bx-code-alt",
     "bullets": [
-      "Tecnología y frameworks: HTML, CSS, Javascript, NodeJS, Gulp, Pug, Stylus, Less, Tailwind, Bootstrap, jQuery, React, Hubspot, BitBucket.",
+      "Tecnología y frameworks: HTML, CSS, JavaScript, NodeJS, Gulp, Pug, Stylus, Less, Tailwind CSS, Bootstrap, jQuery, React, HubSpot, BitBucket.",
       "Maquetado de sitios web responsivos.",
       "Comprobación de desempeño y velocidad de carga.",
       "Conexión con API's.",
-      "Uso de Javascript para sitios dinámicos.",
-      "Implementación de localización para el contenido de sitios web (ENG/ESP) por medio de archivos Javascript.",
+      "Uso de JavaScript para sitios dinámicos.",
+      "Implementación de localización para el contenido de sitios web (ENG/ESP) por medio de archivos JavaScript.",
       "Uso de Hubspot para sitios web y blogs dinámicos."
     ],
   },
@@ -78,7 +78,7 @@ const experienceArrayES = {
     "name": "Back-End Web",
     "icon": "bx-code-curly",
     "bullets": [
-      "Tecnología y frameworks: PHP, Codeigniter, Laravel, Github.",
+      "Tecnología y frameworks: PHP, CodeIgniter, Laravel, GitHub.",
       "Uso del patrón Modelo/Vista/Controlador (MVC).",
       "Desarrollo modular de funciones.",
       "Construcción de portales con CMS personalizados.",
@@ -137,7 +137,7 @@ const projectArrayES = {
     "type": "Black & Orange",
     "thumb": "./img/thumb-traxion-2024.png",
     "img": "./img/traxion-2024.png",
-    "description": "<p>Colaboración en el desarrollo de una variedad de unidades de negocio de Grupo Traxión, agilizado mediante el uso de módulos desarrollados con Pug y Tailwind, integrados con Hubspot.</p>"
+    "description": "<p>Colaboración en el desarrollo de una variedad de unidades de negocio de Grupo Traxión, agilizado mediante el uso de módulos desarrollados con Pug y Tailwind CSS, integrados con Hubspot.</p>"
   },
 
   "5": {
@@ -147,7 +147,7 @@ const projectArrayES = {
     "type": "Black & Orange",
     "thumb": "./img/thumb-defontana-oct23.png",
     "img": "./img/defontana-oct23.png",
-    "description": "<p>Sitio desarrollado con Gulp, Pug, Tailwind, preparado para su integración con Hubspot, presentando una serie de efectos parallax atractivos para el usuario.</p>"
+    "description": "<p>Sitio desarrollado con Gulp, Pug, Tailwind CSS, preparado para su integración con Hubspot, presentando una serie de efectos parallax atractivos para el usuario.</p>"
   },
 
   "6": {
@@ -167,7 +167,7 @@ const projectArrayES = {
     "type": "Black & Orange",
     "thumb": "./img/thumb-hobmanuals-sep23.png",
     "img": "./img/hobmanuals-sep23.png",
-    "description": "<p>Sitio desarrollado con Gulp, Pug, Tailwind, preparado para su integración con Hubspot.</p>"
+    "description": "<p>Sitio desarrollado con Gulp, Pug, Tailwind CSS, preparado para su integración con Hubspot.</p>"
   },
 
   "8": {
@@ -177,7 +177,7 @@ const projectArrayES = {
     "type": "Black & Orange",
     "thumb": "./img/thumb-black-n-orange.png",
     "img": "./img/black-n-orange.png",
-    "description": "<p>Sitio desarrollado con el uso de Tailwind, aprovechando al máximo las capacidades del framework para actualizaciones próximas y un desarrollo con la menor cantidad de scripts posibles, utilizando Javascript. Implementación de animaciones.</p>"
+    "description": "<p>Sitio desarrollado con el uso de Tailwind CSS, aprovechando al máximo las capacidades del framework para actualizaciones próximas y un desarrollo con la menor cantidad de scripts posibles, utilizando JavaScript. Implementación de animaciones.</p>"
   },
 
   "9": {
@@ -257,7 +257,7 @@ const projectArrayES = {
     "type": "Ingenia Agency",
     "thumb": "./img/thumb-ingenia-2019-marqco.jpg",
     "img": "./img/ingenia-2019-marqco.jpg",
-    "description": "<p>Desarrollo web Front-End. Trabajo realizado con HTML, CSS y Javascript. Uso de las herramientas de automatización y frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creación de componentes reutilizables. Desarrollo de la versión 1.0 del sitio web, la cual incluye tanto secciones informativas como un diseñador de muebles básico; progreso en diseñador de muebles avanzado.</p>"
+    "description": "<p>Desarrollo web Front-End. Trabajo realizado con HTML, CSS y JavaScript. Uso de las herramientas de automatización y frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creación de componentes reutilizables. Desarrollo de la versión 1.0 del sitio web, la cual incluye tanto secciones informativas como un diseñador de muebles básico; progreso en diseñador de muebles avanzado.</p>"
   },
 
   "17": {
@@ -267,7 +267,7 @@ const projectArrayES = {
     "type": "Ingenia Agency",
     "thumb": "./img/thumb-ingenia-2019-herdez.jpg",
     "img": "./img/ingenia-2019-herdez.jpg",
-    "description": "<p>Desarrollo web Front-End. Trabajo realizado con HTML, CSS y Javascript. Uso de las herramientas de automatización y frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creación de componentes reutilizables. Encargado principal del apartado Front-End del proyecto, el cual incluía una Progressive Web App para mayor visibilidad.</p>"
+    "description": "<p>Desarrollo web Front-End. Trabajo realizado con HTML, CSS y JavaScript. Uso de las herramientas de automatización y frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creación de componentes reutilizables. Encargado principal del apartado Front-End del proyecto, el cual incluía una Progressive Web App para mayor visibilidad.</p>"
   },
 
   "18": {
@@ -307,7 +307,7 @@ const projectArrayES = {
     "type": "Ingenia Agency",
     "thumb": "./img/thumb-grupo-bimbo.jpg",
     "img": "./img/grupo-bimbo.jpg",
-    "description": "<p>Desarrollo web Front-End. Trabajo realizado con HTML, CSS y Javascript. Uso de las herramientas de automatización y frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creación de componentes reutilizables. Enfoque principal en línea del tiempo y secciones informativas.</p>"
+    "description": "<p>Desarrollo web Front-End. Trabajo realizado con HTML, CSS y JavaScript. Uso de las herramientas de automatización y frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creación de componentes reutilizables. Enfoque principal en línea del tiempo y secciones informativas.</p>"
   },
 
   "22": {
