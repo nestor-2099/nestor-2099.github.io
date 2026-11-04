@@ -59,7 +59,7 @@ const experienceArrayEN = {
       "Responsive website design.",
       "Performance and page load speed testing.",
       "API connection.",
-      "Javascript usage for dynamic websites.",
+      "JavaScript usage for dynamic websites.",
       "Website content localization implementation (ENG/ESP) using JavaScript files.",
       "HubSpot use for dynamic websites and blogs."
     ],
@@ -137,7 +137,7 @@ const projectArrayEN = {
     "type": "Black & Orange",
     "thumb": "./img/thumb-traxion-2024.png",
     "img": "./img/traxion-2024.png",
-    "description": "<p>Collaboration in the creation of a variety of Grupo Traxión business units, streamlined through the use of modules developed with Pug and Tailwind, integrated with Hubspot.</p>"
+    "description": "<p>Collaboration in the creation of a variety of Grupo Traxión business units, streamlined through the use of modules developed with Pug and Tailwind CSS, integrated with Hubspot.</p>"
   },
 
   "5": {
@@ -147,7 +147,7 @@ const projectArrayEN = {
     "type": "Black & Orange",
     "thumb": "./img/thumb-defontana-oct23.png",
     "img": "./img/defontana-oct23.png",
-    "description": "<p>Site developed with Gulp, Pug, Tailwind, prepared for integration with Hubspot, presenting a series of attractive parallax effects for the user.</p>"
+    "description": "<p>Site developed with Gulp, Pug, Tailwind CSS, prepared for integration with Hubspot, presenting a series of attractive parallax effects for the user.</p>"
   },
 
   "6": {
@@ -167,7 +167,7 @@ const projectArrayEN = {
     "type": "Black & Orange",
     "thumb": "./img/thumb-hobmanuals-sep23.png",
     "img": "./img/hobmanuals-sep23.png",
-    "description": "<p>Site developed with Gulp, Pug, Tailwind, ready for integration with Hubspot.</p>"
+    "description": "<p>Site developed with Gulp, Pug, Tailwind CSS, ready for integration with Hubspot.</p>"
   },
 
   "8": {
@@ -177,7 +177,7 @@ const projectArrayEN = {
     "type": "Black & Orange",
     "thumb": "./img/thumb-black-n-orange.png",
     "img": "./img/black-n-orange.png",
-    "description": "<p>Site developed using Tailwind, taking full advantage of the framework's capabilities for upcoming updates and development with the least amount of scripts possible, using Javascript. Animation implementation.</p>"
+    "description": "<p>Site developed using Tailwind CSS, taking full advantage of the framework's capabilities for upcoming updates and development with the least amount of scripts possible, using JavaScript. Animation implementation.</p>"
   },
 
   "9": {
@@ -257,7 +257,7 @@ const projectArrayEN = {
     "type": "Ingenia Agency",
     "thumb": "./img/thumb-ingenia-2019-marqco.jpg",
     "img": "./img/ingenia-2019-marqco.jpg",
-    "description": "<p>Front End Web Development. Work done with HTML, CSS and Javascript. Use of automation tools and frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creation of reusable components. Development of version 1.0 of the website, which includes both informative sections and a basic furniture designer; progress on advanced furniture designer.</p>"
+    "description": "<p>Front End Web Development. Work done with HTML, CSS and JavaScript. Use of automation tools and frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creation of reusable components. Development of version 1.0 of the website, which includes both informative sections and a basic furniture designer; progress on advanced furniture designer.</p>"
   },
 
   "17": {
@@ -267,7 +267,7 @@ const projectArrayEN = {
     "type": "Ingenia Agency",
     "thumb": "./img/thumb-ingenia-2019-herdez.jpg",
     "img": "./img/ingenia-2019-herdez.jpg",
-    "description": "<p>Front End Web Development. Work done with HTML, CSS and Javascript. Use of automation tools and frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creation of reusable components. Main person in charge of the Front End section of the project, which included a Progressive Web App for greater visibility.</p>"
+    "description": "<p>Front End Web Development. Work done with HTML, CSS and JavaScript. Use of automation tools and frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creation of reusable components. Main person in charge of the Front End section of the project, which included a Progressive Web App for greater visibility.</p>"
   },
 
   "18": {
@@ -307,7 +307,7 @@ const projectArrayEN = {
     "type": "Ingenia Agency",
     "thumb": "./img/thumb-grupo-bimbo.jpg",
     "img": "./img/grupo-bimbo.jpg",
-    "description": "<p>Front End Web Development. Work done with HTML, CSS and Javascript. Use of automation tools and frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creation of reusable components. Main focus on timeline and information sections.</p>"
+    "description": "<p>Front End Web Development. Work done with HTML, CSS and JavaScript. Use of automation tools and frameworks Gulp Pug, Less, Stylus, NodeJS, jQuery. Creation of reusable components. Main focus on timeline and information sections.</p>"
   },
 
   "22": {
