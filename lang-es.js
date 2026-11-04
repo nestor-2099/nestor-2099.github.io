@@ -13,7 +13,7 @@ const websiteES = {
   },
   "hero": {
     "header": "Hola, soy Néstor García",
-    "title": "Web Developer | Front-End | Game Developer / Game Designer",
+    "title": "Web Developer | Front-End | Project Management | Game Developer",
   },
   "about": {
     "title": "Acerca de mí",
@@ -65,14 +65,13 @@ const experienceArrayES = {
     ],
   },
   "2": {
-    "name": "Game Dev",
-    "icon": "bx-joystick",
+    "name": "Project Management",
+    "icon": "bx-bar-chart-square",
     "bullets": [
-      "Tecnología y frameworks: Godot, Steam, GodotSteam, Google Drive, Trello, Photoshop, Aseprite, DaVinci Resolve, Audacity, GitLab.",
-      "Diseño técnico de videojuegos: Game Design, UX, UI, mecánicas.",
-      "Desarrollo de proyectos de forma iterativa e incremental (Scrum, sprints).",
-      "Publicación en línea mediante las plataformas Steam, itch.io y Play Store.",
-      "Visión enfocada en narrativa, atmósfera visual y gameplay cautivante."
+      "Planeación, producción y lanzamiento de proyectos digitales, trabajando en objetivos, requerimientos y entregables.",
+      "Seguimiento de tareas, fechas y avances semanales.",
+      "Desarrollo de proyectos de forma iterativa e incremental mediante metodologías ágiles (Scrum).",
+	  "Colaboración con equipos multidisciplinarios para coordinación de actividades y entregables."
     ],
   },
   "3": {
@@ -85,7 +84,19 @@ const experienceArrayES = {
       "Construcción de portales con CMS personalizados.",
       "Implementación de localización para el contenido de sitios web (ENG/ESP)."
     ],
-  }
+  },
+  "4": {
+    "name": "Game Dev",
+    "icon": "bx-joystick",
+    "bullets": [
+      "Tecnología y frameworks: Godot, Steam, GodotSteam, Google Drive, Trello, Photoshop, Aseprite, DaVinci Resolve, Audacity, GitLab.",
+      "Diseño técnico de videojuegos: Game Design, UX, UI, mecánicas.",
+      "Desarrollo de proyectos de forma iterativa e incremental (Scrum, sprints).",
+      "Publicación en línea mediante las plataformas Steam, itch.io y Play Store.",
+      "Visión enfocada en narrativa, atmósfera visual y gameplay cautivante."
+    ],
+  },
+  
 }
 
 const projectArrayES = {
