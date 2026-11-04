@@ -68,10 +68,10 @@ const experienceArrayES = {
     "name": "Project Management",
     "icon": "bx-bar-chart-square",
     "bullets": [
-      "Planeación, producción y lanzamiento de proyectos digitales, trabajando en objetivos, requerimientos y entregables.",
-      "Seguimiento de tareas, fechas y avances semanales.",
+      "Planeación, producción y lanzamiento de proyectos digitales mediante la definición de objetivos, requerimientos y entregables.",
+      "Seguimiento de tareas, fechas de entrega y avances semanales.",
       "Desarrollo de proyectos de forma iterativa e incremental mediante metodologías ágiles (Scrum).",
-	  "Colaboración con equipos multidisciplinarios para coordinación de actividades y entregables."
+	  "Colaboración con equipos multidisciplinarios para coordinar actividades y asegurar el cumplimiento de entregables."
     ],
   },
   "3": {
