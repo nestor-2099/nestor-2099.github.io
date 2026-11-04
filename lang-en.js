@@ -13,7 +13,7 @@ const websiteEN = {
   },
   "hero": {
     "header": "Hey there, I'm Néstor García",
-    "title": "Web Developer | Front-End | Game Developer / Game Designer"
+    "title": "Web Developer | Front-End | Project Management | Game Developer"
   },
   "about": {
     "title": "About me",
