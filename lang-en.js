@@ -65,14 +65,13 @@ const experienceArrayEN = {
     ],
   },
   "2": {
-    "name": "Game Dev",
-    "icon": "bx-joystick",
+    "name": "Project Management",
+    "icon": "bx-bar-chart-square",
     "bullets": [
-      "Technology and frameworks: Godot, Steam, GodotSteam, Google Drive, Trello, Photoshop, Aseprite, DaVinci Resolve, Audacity, GitLab.",
-      "Technical design of video games: Game Design, UX, UI, mechanics.",
-      "Iterative and incremental project development (Scrum, sprints).",
-      "Online publishing via Steam, itch.io, and the Play Store.",
-      "Focus on narrative, visual atmosphere, and captivating gameplay."
+      "Planning, production, and launch of digital projects through the definition of objectives, requirements, and deliverables.",
+	  "Tracking of tasks, deadlines, and weekly progress.",
+	  "Iterative and incremental project development using agile methodologies (Scrum).",
+	  "Collaboration with multidisciplinary teams to coordinate activities and ensure the completion of deliverables."
     ],
   },
   "3": {
@@ -85,7 +84,19 @@ const experienceArrayEN = {
       "Portal building with custom CMS'.",
       "Localization implementation for website content (ENG/ESP)."
     ],
-  }
+  },
+  "4": {
+    "name": "Game Dev",
+    "icon": "bx-joystick",
+    "bullets": [
+      "Technology and frameworks: Godot, Steam, GodotSteam, Google Drive, Trello, Photoshop, Aseprite, DaVinci Resolve, Audacity, GitLab.",
+      "Technical design of video games: Game Design, UX, UI, mechanics.",
+      "Iterative and incremental project development (Scrum, sprints).",
+      "Online publishing via Steam, itch.io, and the Play Store.",
+      "Focus on narrative, visual atmosphere, and captivating gameplay."
+    ],
+  },
+  
 }
 
 const projectArrayEN = {
