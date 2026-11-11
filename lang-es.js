@@ -17,7 +17,8 @@ const websiteES = {
   },
   "about": {
     "title": "Acerca de mí",
-    "paragraph": "<p>Desarrollador web, con amplia experiencia en la creación y mantenimiento de plataformas de contenido, sitios informativos, CMS, landing pages y experiencias interactivas, especializado en el desarrollo Front-End.</p>"+
+    "paragraph": "<p>Soy Néstor García, desarrollador web, desarrollador de videojuegos y project manager de diversos productos digitales.</p>"+
+				"<p>Desarrollador web, con amplia experiencia en la creación y mantenimiento de plataformas de contenido, sitios informativos, CMS, landing pages y experiencias interactivas, especializado en el desarrollo Front-End.</p>"+
                 "<p>He participado en proyectos digitales desde la planeación y definición de requerimientos hasta su implementación y lanzamiento, colaborando en el seguimiento de actividades, la resolución de problemas y la entrega de soluciones. Mi trayectoria incluye el desarrollo de productos digitales y videojuegos independientes como Game Developer y Game Designer.</p>"+
                 "<p>Me interesa crear experiencias que brinden valor a su público, combinando la programación, UX/UI, resolución de problemas y planeación estratégica. Actualmente busco fortalecer mi perfil en gestión y coordinación de proyectos, integrando metodologías y herramientas de Project Management.</p>"+
                 "<p>He participado en proyectos para Alka-Seltzer, Caminos de la Libertad, Bimbo, Liga MX, TecSalud, Universidad Anáhuac, Talana y Tecmilenio, entre otros.</p>"+
