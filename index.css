@@ -1402,12 +1402,12 @@ header.scrolling {
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	}
 .card-experience-elem:nth-of-type(4n+1):hover i::after {
-		border: 2px solid #915392;
+		border: 2px solid #8cff9b;
 		border-right: 0;
 		opacity: 1;
 	}
 .card-experience-elem:nth-of-type(4n+1):hover h3, .card-experience-elem:nth-of-type(4n+1):hover i {
-		color: #915392;
+		color: #8cff9b;
 	}
 .card-experience-elem:nth-of-type(4n+2):hover i::after {
 		border: 2px solid #915392;
