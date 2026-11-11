@@ -17,7 +17,8 @@ const websiteEN = {
   },
   "about": {
     "title": "About me",
-    "paragraph": "<p>A web developer with extensive experience in creating and maintaining content platforms, informational sites, CMS, landing pages, and interactive experiences, specializing in front-end development.</p>"+
+    "paragraph": "<p>My name is Néstor García, a web developer, video game developer, and project manager for various digital products.</p>"+
+				"<p>A web developer with extensive experience in creating and maintaining content platforms, informational sites, CMS, landing pages, and interactive experiences, specializing in front-end development.</p>"+
 				"<p>I have worked on digital projects—spanning everything from planning and requirements definition to implementation and launch—using web technologies, APIs, and content management systems. My background also includes work as a game developer and game designer, creating digital products and indie video games.</p>"+
 				"<p>I am passionate about creating digital experiences that deliver value to audiences by combining programming, UX/UI design, and problem-solving.</p>"+
 				"<p>I have contributed to projects for clients such as Alka-Seltzer, Caminos de la Libertad, Bimbo, Liga MX, TecSalud, Universidad Anáhuac, Talana, and Tecmilenio, among others.</p>"+
